@@ -49,6 +49,11 @@ gulp.task('build-assets', 'Copies all assets from source', buildAssets);
 gulp.task('clean', 'Clean dist folder', clean);
 gulp.task('version', 'Displays current version of Semantic', version);
 
+gulp.task('copy-theme', function() {
+  gulp.src('./dist/**/*')
+  .pipe(gulp.dest('../src'));
+});
+
 /*--------------
       Docs
 ---------------*/
