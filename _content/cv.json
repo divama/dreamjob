@@ -22,7 +22,7 @@
     },
     "2007 - 2010": {
       "company": "TamTam",
-      "function": "Front-end engineer",
+      "function": "Front-end engineer - MOSS/WCM Team",
       "description": "Het informeren van (al dan niet externe) grafisch ontwerpers en developers over de branding mogelijkheden en beperkingen van SharePoint (zowel portal als website) bij het maken van een grafisch ontwerp of bij de ontwikkeling van webparts, middels lezingen, blogposts, publicaties (SharePoint Magazine) en persoonlijk advies. Voorbereiden van het grafisch ontwerp, ontwikkeling van masterpages, pagelayouts en stylesheets en implementatie van het grafisch ontwerp op SharePoint portalen, met behulp van Photoshop, Microsoft SharePoint designer, Developers tools, FireBug. Voorbereiden van het grafisch ontwerp, ontwikkeling van masterpages, pagelayouts en stylesheets volgens de HTML standaarden, met behulp van de starterskit, implementatie van het grafisch ontwerp op SharePoint websites en toepassen van JQuery elementen (tabbladen, slider, carousel, font-size menu) en PNG-filters voor transparantie (ActiveX), met behulp van Photoshop, Microsoft SharePoint designer, Developers tools, FireBug. Kwaliteitsbeheer en nazorg verlenen door bijvoorbeeld het oplossen van style issues. Versiebeheer met Sourcegear Vault"
     },
     "2006 - 2007": {
@@ -49,27 +49,96 @@
     }
   },
   "training": {
-    "2000": {
-      "training": "training xyz",
-      "title": "title xyz",
-      "school": "university xyz",
-      "competentions": "add competentions?"
+    "2017": {
+      "title": "ReactJS Redux course Pluralsight"
     },
-    "2001": {
-      "training": "training xyz",
-      "title": "title xyz",
-      "school": "university xyz",
-      "competentions": "add competentions?"
+    "2016": {
+      "title": "ReactSJ course Pluralsight"
+    },
+    "2013, 2014, 2015, 2016": {
+      "title": "Certification: Security Awareness for Development Professionals"
+    },
+    "2015": {
+      "title": "AngularJS course Pluralsight"
+    },
+    "2013, 2015": {
+      "title": "EHBO for children"
+    },
+    "2015": {
+      "title": "Certification: Exact Online Accountancy"
+    },
+    "2014": {
+      "title": "Certification: Exact Online Professional Services"
+    },
+    "2014": {
+      "title": "Certification: Security Awareness for Development Professionals"
+    },
+    "2014": {
+      "title": "Certification: Exact Online Manufacturing"
+    },
+    "2014": {
+      "title": "Certification: Exact Online - Technical Insight"
+    },
+    "2014": {
+      "title": "Certification: Exact Online - Technical Essentials"
+    },
+    "2014": {
+      "title": "Exact Globe Next & Exact Synergy"
+    },
+    "2014": {
+      "title": "Javascript course - Codecademy.com"
+    },
+    "2013": {
+      "title": "Certification: Exact Online Essentials"
+    },
+    "2013": {
+      "title": "Certification: Exact Online Wholesale Distribution"
+    },
+    "2013": {
+      "title": "Basic Bookkeeping"
+    },
+    "2013": {
+      "title": "3rd Party Software Components"
+    },
+    "2013": {
+      "title": "Certification: Exact Online Insight"
+    },
+    "2010": {
+      "title": "Website UMC st.Radboud beste ziekenhuiswebsite van nederland! MOSS/WCM SP07 website UMC st.Radboud (www.umcn.nl) beste ziekenhuiswebsite van nederland! www.zorgwebmonitor.nl"
     }
   },
   "skills": {
     "professional": {
-      "skil1": "5",
-      "skil2": "2"
+      "HTML/CSS": "5",
+      "LESS/SASS": "5",
+      "JavaScript/jQuery": "4",
+      "Bootstrap/Semantic UI": "5",
+      "AngularJS/ReactJS": "4",
+      "NPM/Grunt/Gulp/Webpack": "4",
+      "BEM/Camelcase/Pascalcase": "5",
+      "tools": {
+        "GitHub": "5",
+        "Sourcetree": "5",
+        "Visual Studio Code": "5",
+        "Atom": "5",
+        "Visual Studio": "5",
+        "Difmerge": "5",
+        "Photoshop": "5",
+        "Zeplin": "5",
+        "Evergage": "5",
+        "Trello": "5",
+        "Basecamp": "5",
+        "Scrum": "5",
+        "User Experience": "5",
+        "Living Styleguide": "5"
+      }
     },
     "personal": {
-      "skil1": "5",
-      "skil2": "2"
+      "Creativity": "5",
+      "Communication": "3",
+      "Organizing": "5",
+      "Team player": "4",
+      "Presenting": "3"
     }
   },
   "languages": {
