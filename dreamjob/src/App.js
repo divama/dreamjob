@@ -13,8 +13,8 @@ class App extends Component {
         <p className="App-intro">
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
-        <p>source: <a href="https://github.com/facebookincubator/create-react-app" target="_blank">https://github.com/facebookincubator/create-react-app</a></p>
-        <p><a href="https://divama.github.io/Me/" target="_blank">https://divama.github.io/Me</a></p>
+        <p><a href="https://divama.github.io/Me/">https://divama.github.io/Me</a></p>
+        <p><a href="https://github.com/divama/Me/projects/1">https://github.com/divama/Me/projects/1</a></p>
       </div>
     );
   }
