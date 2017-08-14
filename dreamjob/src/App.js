@@ -14,7 +14,8 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <p><a href="https://divama.github.io/Me/">https://divama.github.io/Me</a></p>
-        <p><a href="https://github.com/divama/Me/projects/1">https://github.com/divama/Me/projects/1</a></p>
+        <p><a href="https://github.com/divama/Me/projects/1">https://github.com/divama/Me/projects/1</a>
+        <button className="ui button">Button</button></p>
       </div>
     );
   }
