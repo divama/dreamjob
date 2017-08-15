@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Segment } from 'semantic-ui-react';
-import logo from './logo.svg';
 
 class App extends Component {
   render() {
