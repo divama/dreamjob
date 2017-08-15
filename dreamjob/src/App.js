@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Grid, Segment } from 'semantic-ui-react';
 import logo from './logo.svg';
 import './App.css';
 
@@ -18,28 +19,28 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <div className="ui two column stackable grid">
-          <div className="row">
-            <div className="ten wide column">
-              <div className="ui segment">Left 1</div>
-            </div>
-            <div className="six wide column">
-              <div className="ui segment ">right 1</div>
-            </div>
-          </div>
+        <Grid columns={2} stackable>
+          <Grid.Row>
+            <Grid.Column width={10}>
+              <Segment>1</Segment>
+            </Grid.Column>
+            <Grid.Column width={6}>
+              <Segment>2</Segment>
+            </Grid.Column>
+          </Grid.Row>
 
-          <div className="row">
-            <div className="ten wide column">
-              <div className="ui segment">Left 2</div>
-              <div className="ui segment">Left 3</div>
-            </div>
-            <div className="six wide column">
-              <div className="ui segment">right 2</div>
-              <div className="ui segment">right 3</div>
-              <div className="ui segment">right 4</div>
-            </div>
-          </div>
-        </div>
+          <Grid.Row>
+            <Grid.Column width={10}>
+              <Segment>3</Segment>
+              <Segment>4</Segment>
+            </Grid.Column>
+            <Grid.Column width={6}>
+              <Segment>5</Segment>
+              <Segment>6</Segment>
+              <Segment>7</Segment>
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
       </div>
     );
   }
