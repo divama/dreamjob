@@ -116,6 +116,7 @@
       "AngularJS/ReactJS": "4",
       "NPM/Grunt/Gulp/Webpack": "4",
       "BEM/Camelcase/Pascalcase": "5",
+      "Markdown": "4",
       "tools": {
         "GitHub": "5",
         "Sourcetree": "5",
