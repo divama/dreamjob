@@ -29,18 +29,18 @@ class Resume extends Component {
           <Grid.Row>
             <Grid.Column width={10}>
               <Segment>
-                <Employment />1
+                <Employment />
               </Segment>
               <Segment>
-                <Education />2
+                <Education />
               </Segment>
             </Grid.Column>
             <Grid.Column width={6}>
               <Segment>
-                <Skills />3
+                <Skills />
               </Segment>
               <Segment>
-                <Skills />4
+                <Skills />
               </Segment>
             </Grid.Column>
           </Grid.Row>
