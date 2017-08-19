@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Segment } from 'semantic-ui-react';
+import { Grid, Segment, Header } from 'semantic-ui-react';
 
 import Name from './../myComponents/Name';
 import Contact from './../myComponents/Contact';
@@ -12,6 +12,9 @@ class Resume extends Component {
   render() {
     return (
       <div>
+        <Header as="h3" block>
+          Resume
+        </Header>
         <Grid columns={2} stackable>
           <Grid.Row>
             <Grid.Column width={10}>

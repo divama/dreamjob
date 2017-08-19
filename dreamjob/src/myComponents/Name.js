@@ -1,9 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Header, Image } from 'semantic-ui-react';
 
-class Name extends Component {
-  render() {
-    return <div>Name info</div>;
-  }
-}
+const Name = () =>
+  <Header as="h2">
+    <Image
+      shape="circular"
+      src="https://react.semantic-ui.com/assets/images/avatar/large/patrick.png"
+    />
+    <Header.Content>Name</Header.Content>
+    <Header.Subheader>Function</Header.Subheader>
+  </Header>;
 
 export default Name;
