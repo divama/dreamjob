@@ -114,7 +114,7 @@
       "JavaScript/jQuery": "4",
       "Bootstrap/Semantic UI": "5",
       "AngularJS/ReactJS": "4",
-      "NPM/Grunt/Gulp/Webpack": "4",
+      "NPM/Grunt/Gulp/Webpack": "3",
       "BEM/Camelcase/Pascalcase": "5",
       "Markdown": "4",
       "tools": {
@@ -130,7 +130,7 @@
         "Trello": "5",
         "Basecamp": "5",
         "Scrum": "5",
-        "User Experience": "5",
+        "User Experience": "4",
         "Living Styleguide": "5"
       }
     },
