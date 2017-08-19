@@ -7,6 +7,8 @@ import Employment from './../myComponents/Employment';
 import Education from './../myComponents/Education';
 import ProfSkills from './../myComponents/ProfSkills';
 import PersSkills from './../myComponents/PersSkills';
+import Training from './../myComponents/Training';
+import SecActivities from './../myComponents/SecActivities';
 import Footer from './../myComponents/Footer';
 
 class Resume extends Component {
@@ -38,6 +40,9 @@ class Resume extends Component {
               <Segment>
                 <Education />
               </Segment>
+              <Segment>
+                <SecActivities />
+              </Segment>
             </Grid.Column>
             <Grid.Column width={6}>
               <Segment>
@@ -45,6 +50,9 @@ class Resume extends Component {
               </Segment>
               <Segment>
                 <PersSkills />
+              </Segment>
+              <Segment>
+                <Training />
               </Segment>
             </Grid.Column>
           </Grid.Row>
