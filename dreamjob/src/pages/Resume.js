@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
 import { Grid, Segment } from 'semantic-ui-react';
 
-//needed myComponents: Resume as overviewpage, Name, Contact, Employment, Educaton, Skills, Photo
 import Name from './../myComponents/Name';
 import Contact from './../myComponents/Contact';
 import Employment from './../myComponents/Employment';
 import Education from './../myComponents/Education';
 import Skills from './../myComponents/Skills';
-import Photo from './../myComponents/Photo';
 import Footer from './../myComponents/Footer';
 
 class Resume extends Component {
@@ -43,9 +41,6 @@ class Resume extends Component {
               </Segment>
               <Segment>
                 <Skills />4
-              </Segment>
-              <Segment>
-                <Photo />5
               </Segment>
             </Grid.Column>
           </Grid.Row>
