@@ -34,7 +34,7 @@ const Contact = () =>
         </List.Content>
       </List.Item>
       <List.Item>
-        <List.Icon name="car outline" size="large" verticalAlign="middle" />
+        <List.Icon name="car" size="large" verticalAlign="middle" />
         <List.Content>
           <List.Header as="a">Maximum traveling distance</List.Header>
           <List.Description>20km from Capelle aan den IJssel</List.Description>
