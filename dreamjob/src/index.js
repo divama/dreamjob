@@ -6,7 +6,7 @@ import registerServiceWorker from './registerServiceWorker';
 import './semantic.min.css';
 
 // Import Components
-import Resume from './myComponents/Resume';
+import Resume from './pages/Resume';
 
 ReactDOM.render(<Resume />, document.getElementById('root'));
 registerServiceWorker();

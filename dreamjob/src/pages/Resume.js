@@ -1,21 +1,19 @@
 import React, { Component } from 'react';
 import { Grid, Segment } from 'semantic-ui-react';
-//needed myComponents: contact, employment, educaton, skills, photo
-//exisiting components: grid, segment and more
+
+//needed myComponents: Resume as overviewpage, contact, employment, educaton, skills, photo
+import Contact from './../myComponents/Contact';
 
 class Resume extends Component {
   render() {
     return (
       <div>
-        <a href="https://divama.github.io/Me/">https://divama.github.io/Me</a>
-        <a href="https://github.com/divama/Me/projects/1">
-          https://github.com/divama/Me/projects/1
-        </a>
-
         <Grid columns={2} stackable>
           <Grid.Row>
             <Grid.Column width={10}>
-              <Segment>1</Segment>
+              <Segment>
+                <Contact />
+              </Segment>
             </Grid.Column>
             <Grid.Column width={6}>
               <Segment>2</Segment>
@@ -34,6 +32,11 @@ class Resume extends Component {
             </Grid.Column>
           </Grid.Row>
         </Grid>
+
+        <a href="https://divama.github.io/Me/">https://divama.github.io/Me</a>
+        <a href="https://github.com/divama/Me/projects/1">
+          https://github.com/divama/Me/projects/1
+        </a>
       </div>
     );
   }
