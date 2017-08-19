@@ -1,8 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Skills from './Skills';
+import ProfSkills from './PersSkills';
 
 it('renders without crashing', () => {
   const div = document.createElement('div');
-  ReactDOM.render(<Skills />, div);
+  ReactDOM.render(<ProfSkills />, div);
 });
