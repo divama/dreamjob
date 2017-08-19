@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Segment } from 'semantic-ui-react';
+//needed myComponents: contact, employment, educaton, skills, photo
+//exisiting components: grid, segment and more
 
-class App extends Component {
+class Resume extends Component {
   render() {
     return (
       <div>
@@ -37,4 +39,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Resume;
