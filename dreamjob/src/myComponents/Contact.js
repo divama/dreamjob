@@ -33,6 +33,13 @@ const Contact = () =>
           <List.Description as="a">https://github.com/divama</List.Description>
         </List.Content>
       </List.Item>
+      <List.Item>
+        <List.Icon name="car outline" size="large" verticalAlign="middle" />
+        <List.Content>
+          <List.Header as="a">Maximum traveling distance</List.Header>
+          <List.Description>20km from Capelle aan den IJssel</List.Description>
+        </List.Content>
+      </List.Item>
     </List>
   </div>;
 

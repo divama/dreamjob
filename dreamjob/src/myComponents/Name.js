@@ -9,8 +9,8 @@ const Name = () =>
         src="https://react.semantic-ui.com/assets/images/avatar/large/patrick.png"
       />
       <Header.Content>
-        Name
-        <Header.Subheader>Function</Header.Subheader>
+        Diantha van Marion
+        <Header.Subheader>Front-end developer React</Header.Subheader>
       </Header.Content>
     </Header>
     <p>
