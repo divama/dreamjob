@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Icon, Header, Accordion } from 'semantic-ui-react';
+import { List, Header, Accordion } from 'semantic-ui-react';
 
 const Education = () =>
   <div>

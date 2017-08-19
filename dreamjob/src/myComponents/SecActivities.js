@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Icon, Header } from 'semantic-ui-react';
+import { List, Header, Accordion } from 'semantic-ui-react';
 
 const SecActivities = () =>
   <div>
@@ -15,13 +15,19 @@ const SecActivities = () =>
           <List.List>
             <List.Item>
               <List.Content>
-                <List.Header>
-                  MOSS/WCM SP07 website UMC st.Radboud uitgeroepen tot beste
-                  ziekenhuiswebsite van nederland! @ Tamtam
-                </List.Header>
-                <List.Description>
-                  (www.umcn.nl) volgens www.zorgwebmonitor.nl
-                </List.Description>
+                <Accordion>
+                  <Accordion.Title>
+                    <List.Header>
+                      MOSS/WCM SP07 website UMC st.Radboud uitgeroepen tot beste
+                      ziekenhuiswebsite van nederland! @ Tamtam
+                    </List.Header>
+                  </Accordion.Title>
+                  <Accordion.Content>
+                    <List.Description>
+                      (www.umcn.nl) volgens www.zorgwebmonitor.nl
+                    </List.Description>
+                  </Accordion.Content>
+                </Accordion>
               </List.Content>
             </List.Item>
           </List.List>
@@ -35,13 +41,19 @@ const SecActivities = () =>
           <List.List>
             <List.Item>
               <List.Content>
-                <List.Header>
-                  SharePointMagazine publicaties @ Tamtam
-                </List.Header>
-                <List.Description>
-                  Verschillende publicaties geschreven over SharePoint’s 2007
-                  Branding Limitations. www.sharepointmagazine.net
-                </List.Description>
+                <Accordion>
+                  <Accordion.Title>
+                    <List.Header>
+                      SharePointMagazine publicaties @ Tamtam
+                    </List.Header>
+                  </Accordion.Title>
+                  <Accordion.Content>
+                    <List.Description>
+                      Verschillende publicaties geschreven over SharePoint’s
+                      2007 Branding Limitations. www.sharepointmagazine.net
+                    </List.Description>
+                  </Accordion.Content>
+                </Accordion>
               </List.Content>
             </List.Item>
           </List.List>
@@ -55,10 +67,17 @@ const SecActivities = () =>
           <List.List>
             <List.Item>
               <List.Content>
-                <List.Header>
-                  Blog over front-end development voor SharePoint 2007 @ Tamtam
-                </List.Header>
-                <List.Description>www.tamtam.nl</List.Description>
+                <Accordion>
+                  <Accordion.Title>
+                    <List.Header>
+                      Blog over front-end development voor SharePoint 2007 @
+                      Tamtam
+                    </List.Header>
+                  </Accordion.Title>
+                  <Accordion.Content>
+                    <List.Description>www.tamtam.nl</List.Description>
+                  </Accordion.Content>
+                </Accordion>
               </List.Content>
             </List.Item>
           </List.List>
@@ -89,10 +108,16 @@ const SecActivities = () =>
           <List.List>
             <List.Item>
               <List.Content>
-                <List.Header>
-                  Kampleider introductiekamp informatica @ Haag Uit.
-                </List.Header>
-                <List.Description>www.haaguit.com </List.Description>
+                <Accordion>
+                  <Accordion.Title>
+                    <List.Header>
+                      Kampleider introductiekamp informatica @ Haag Uit.
+                    </List.Header>
+                  </Accordion.Title>
+                  <Accordion.Content>
+                    <List.Description>www.haaguit.com </List.Description>
+                  </Accordion.Content>
+                </Accordion>
               </List.Content>
             </List.Item>
           </List.List>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Icon, Header } from 'semantic-ui-react';
+import { List, Header } from 'semantic-ui-react';
 
 const Trainings = () =>
   <div>

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Grid, Segment } from 'semantic-ui-react';
-import Photo from './Photo';
 
 class Footer extends Component {
   render() {
