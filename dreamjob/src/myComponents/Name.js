@@ -7,8 +7,9 @@ const Name = () =>
       shape="circular"
       src="https://react.semantic-ui.com/assets/images/avatar/large/patrick.png"
     />
-    <Header.Content>Name</Header.Content>
-    <Header.Subheader>Function</Header.Subheader>
+    <Header.Content>
+      Name<Header.Subheader>Function</Header.Subheader>
+    </Header.Content>
   </Header>;
 
 export default Name;
