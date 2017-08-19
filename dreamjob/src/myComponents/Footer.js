@@ -10,21 +10,10 @@ class Footer extends Component {
           <Segment>footer 1</Segment>
         </Grid.Column>
         <Grid.Column width={5}>
-          <Segment>
-            <Photo />
-          </Segment>
+          <Segment>footer 2</Segment>
         </Grid.Column>
         <Grid.Column width={6}>
-          <Segment>
-            <a href="https://divama.github.io/Me/">
-              https://divama.github.io/Me
-            </a>
-          </Segment>
-          <Segment>
-            <a href="https://github.com/divama/Me/projects/1">
-              https://github.com/divama/Me/projects/1
-            </a>
-          </Segment>
+          <Segment>footer 3</Segment>
         </Grid.Column>
       </Grid.Row>
     );

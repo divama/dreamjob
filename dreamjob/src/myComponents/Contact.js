@@ -9,6 +9,15 @@ const Contact = () =>
 
     <List divided relaxed>
       <List.Item>
+        <List.Icon name="id card outline" size="large" verticalAlign="middle" />
+        <List.Content>
+          <List.Header as="a">Linkedin</List.Header>
+          <List.Description as="a">
+            https://www.linkedin.com/in/diantha
+          </List.Description>
+        </List.Content>
+      </List.Item>
+      <List.Item>
         <List.Icon name="sitemap" size="large" verticalAlign="middle" />
         <List.Content>
           <List.Header as="a">Website</List.Header>
@@ -21,18 +30,7 @@ const Contact = () =>
         <List.Icon name="github" size="large" verticalAlign="middle" />
         <List.Content>
           <List.Header as="a">Github</List.Header>
-          <List.Description as="a">
-            https://github.com/divama/Me
-          </List.Description>
-        </List.Content>
-      </List.Item>
-      <List.Item>
-        <List.Icon name="id card outline" size="large" verticalAlign="middle" />
-        <List.Content>
-          <List.Header as="a">Linkedin</List.Header>
-          <List.Description as="a">
-            https://www.linkedin.com/in/diantha/
-          </List.Description>
+          <List.Description as="a">https://github.com/divama</List.Description>
         </List.Content>
       </List.Item>
     </List>
