@@ -6,7 +6,8 @@ const Name = () =>
     <Header as="h2">
       <Image
         shape="circular"
-        src="https://react.semantic-ui.com/assets/images/avatar/large/patrick.png"
+        //src="https://react.semantic-ui.com/assets/images/avatar/large/patrick.png"
+        src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAduAAAAJGE5NTY0YjhkLTUwMzItNGY4YS04ZTZiLTljYWQ5MmM3ODdhNQ.jpg"
       />
       <Header.Content>
         Diantha van Marion

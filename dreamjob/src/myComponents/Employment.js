@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header, List, Accordion } from 'semantic-ui-react';
+import { Header, List, Accordion, Icon } from 'semantic-ui-react';
 
 const Employment = () =>
   <div>
@@ -19,7 +19,7 @@ const Employment = () =>
                   <Accordion.Title>
                     <List.Header>
                       Software Engineer (Front-end Developer) @ Exact : Exact
-                      Design System Team
+                      Design System Team <Icon name="dropdown" />
                     </List.Header>
                   </Accordion.Title>
                   <Accordion.Content>
@@ -63,7 +63,7 @@ const Employment = () =>
                   <Accordion.Title>
                     <List.Header>
                       Software Engineer (Front-end Developer) @ Exact :
-                      Horizontal User Experience Team
+                      Horizontal User Experience Team <Icon name="dropdown" />
                     </List.Header>
                   </Accordion.Title>
                   <Accordion.Content>
@@ -92,35 +92,6 @@ const Employment = () =>
       <List.Item>
         <List.Icon name="folder" />
         <List.Content>
-          <List.Header>2009 - 2015</List.Header>
-          <List.List>
-            <List.Item>
-              <List.Content>
-                <Accordion>
-                  <Accordion.Title>
-                    <List.Header>
-                      Voluntary Designer and Front-end engineer @ PKN Rotterdam
-                      Alexanderpolder : Commissie Communicatie en Publiciteit
-                    </List.Header>
-                  </Accordion.Title>
-                  <Accordion.Content>
-                    <List.Description>
-                      Grafisch ontwerp en ontwikkeling van de e-nieuwsbrief,
-                      afgestemd op verschillende e-mail programma’s en browsers.
-                      Redactiewerk zoals verzamelen, plaatsen en stylen van de
-                      content en afbeeldingen. Testen en distributie.
-                    </List.Description>
-                  </Accordion.Content>{' '}
-                </Accordion>
-              </List.Content>
-            </List.Item>
-          </List.List>
-        </List.Content>
-      </List.Item>
-
-      <List.Item>
-        <List.Icon name="folder" />
-        <List.Content>
           <List.Header>2010 - 2013</List.Header>
           <List.List>
             <List.Item>
@@ -129,7 +100,7 @@ const Employment = () =>
                   <Accordion.Title>
                     <List.Header>
                       Front-end Developer @ Campagne : User Experience
-                      Department
+                      Department <Icon name="dropdown" />
                     </List.Header>
                   </Accordion.Title>
                   <Accordion.Content>
@@ -152,7 +123,7 @@ const Employment = () =>
                       After Effects, Sorenson Squeeze, Soundbooth, WordPress,
                       Mailca, Mailcamp.
                     </List.Description>
-                  </Accordion.Content>{' '}
+                  </Accordion.Content>
                 </Accordion>
               </List.Content>
             </List.Item>
@@ -160,187 +131,239 @@ const Employment = () =>
         </List.Content>
       </List.Item>
 
-      <List.Item>
-        <List.Icon name="folder" />
-        <List.Content>
-          <List.Header>2007 - 2010</List.Header>
-          <List.List>
-            <List.Item>
-              <List.Content>
-                <Accordion>
-                  <Accordion.Title>
-                    <List.Header>
-                      Front-end engineer @ TamTam : MOSS/WCM Team
-                    </List.Header>
-                  </Accordion.Title>
-                  <Accordion.Content>
-                    <List.Description>
-                      Het informeren van (al dan niet externe) grafisch
-                      ontwerpers en developers over de branding mogelijkheden en
-                      beperkingen van SharePoint (zowel portal als website) bij
-                      het maken van een grafisch ontwerp of bij de ontwikkeling
-                      van webparts, middels lezingen, blogposts, publicaties
-                      (SharePoint Magazine) en persoonlijk advies. Voorbereiden
-                      van het grafisch ontwerp, ontwikkeling van masterpages,
-                      pagelayouts en stylesheets en implementatie van het
-                      grafisch ontwerp op SharePoint portalen, met behulp van
-                      Photoshop, Microsoft SharePoint designer, Developers
-                      tools, FireBug. Voorbereiden van het grafisch ontwerp,
-                      ontwikkeling van masterpages, pagelayouts en stylesheets
-                      volgens de HTML standaarden, met behulp van de
-                      starterskit, implementatie van het grafisch ontwerp op
-                      SharePoint websites en toepassen van JQuery elementen
-                      (tabbladen, slider, carousel, font-size menu) en
-                      PNG-filters voor transparantie (ActiveX), met behulp van
-                      Photoshop, Microsoft SharePoint designer, Developers
-                      tools, FireBug. Kwaliteitsbeheer en nazorg verlenen door
-                      bijvoorbeeld het oplossen van style issues. Versiebeheer
-                      met Sourcegear Vault.
-                    </List.Description>
-                  </Accordion.Content>{' '}
-                </Accordion>
-              </List.Content>
-            </List.Item>
-          </List.List>
-        </List.Content>
-      </List.Item>
+      <Accordion>
+        <Accordion.Title>
+          <Icon name="folder" /> View more <Icon name="dropdown" />
+        </Accordion.Title>
+        <Accordion.Content>
+          <List.Item>
+            <List.Icon name="folder" />
+            <List.Content>
+              <List.Header>2009 - 2015</List.Header>
+              <List.List>
+                <List.Item>
+                  <List.Content>
+                    <Accordion>
+                      <Accordion.Title>
+                        <List.Header>
+                          Voluntary Designer and Front-end engineer @ PKN
+                          Rotterdam Alexanderpolder : Commissie Communicatie en
+                          Publiciteit <Icon name="dropdown" />
+                        </List.Header>
+                      </Accordion.Title>
+                      <Accordion.Content>
+                        <List.Description>
+                          Grafisch ontwerp en ontwikkeling van de e-nieuwsbrief,
+                          afgestemd op verschillende e-mail programma’s en
+                          browsers. Redactiewerk zoals verzamelen, plaatsen en
+                          stylen van de content en afbeeldingen. Testen en
+                          distributie.
+                        </List.Description>
+                      </Accordion.Content>
+                    </Accordion>
+                  </List.Content>
+                </List.Item>
+              </List.List>
+            </List.Content>
+          </List.Item>
 
-      <List.Item>
-        <List.Icon name="folder" />
-        <List.Content>
-          <List.Header>2006 - 2007</List.Header>
-          <List.List>
-            <List.Item>
-              <List.Content>
-                <Accordion>
-                  <Accordion.Title>
-                    <List.Header>
-                      E-commerce / Interaction designer @ Consolit
-                    </List.Header>
-                  </Accordion.Title>
-                  <Accordion.Content>
-                    <List.Description>
-                      Ontwerpen, ontwikkelen en verspreiden van e-nieuwsbrieven
-                      aan de hand van templates. Aan de hand van gesprekken met
-                      de klant meerdere grafische (re)designs maken, het
-                      grafische ontwerp vertalen naar html en css-stylen
-                      (Dreamweaver) en vervolgens met behulp van Visual Web
-                      Developer het prototype van de webshop (aspx) dat door de
-                      programmeur gemaakt is, aanpassen aan het design en de
-                      gewenste instellingen van de klant. Beheren van Google
-                      Adword campagnes en inspelen op de clickrate en
-                      dergelijke. Begeleiden van HBO-stagiaire.
-                    </List.Description>
-                  </Accordion.Content>{' '}
-                </Accordion>
-              </List.Content>
-            </List.Item>
-          </List.List>
-        </List.Content>
-      </List.Item>
+          <List.Item>
+            <List.Icon name="folder" />
+            <List.Content>
+              <List.Header>2007 - 2010</List.Header>
+              <List.List>
+                <List.Item>
+                  <List.Content>
+                    <Accordion>
+                      <Accordion.Title>
+                        <List.Header>
+                          Front-end engineer @ TamTam : MOSS/WCM Team
+                          <Icon name="dropdown" />
+                        </List.Header>
+                      </Accordion.Title>
+                      <Accordion.Content>
+                        <List.Description>
+                          Het informeren van (al dan niet externe) grafisch
+                          ontwerpers en developers over de branding
+                          mogelijkheden en beperkingen van SharePoint (zowel
+                          portal als website) bij het maken van een grafisch
+                          ontwerp of bij de ontwikkeling van webparts, middels
+                          lezingen, blogposts, publicaties (SharePoint Magazine)
+                          en persoonlijk advies. Voorbereiden van het grafisch
+                          ontwerp, ontwikkeling van masterpages, pagelayouts en
+                          stylesheets en implementatie van het grafisch ontwerp
+                          op SharePoint portalen, met behulp van Photoshop,
+                          Microsoft SharePoint designer, Developers tools,
+                          FireBug. Voorbereiden van het grafisch ontwerp,
+                          ontwikkeling van masterpages, pagelayouts en
+                          stylesheets volgens de HTML standaarden, met behulp
+                          van de starterskit, implementatie van het grafisch
+                          ontwerp op SharePoint websites en toepassen van JQuery
+                          elementen (tabbladen, slider, carousel, font-size
+                          menu) en PNG-filters voor transparantie (ActiveX), met
+                          behulp van Photoshop, Microsoft SharePoint designer,
+                          Developers tools, FireBug. Kwaliteitsbeheer en nazorg
+                          verlenen door bijvoorbeeld het oplossen van style
+                          issues. Versiebeheer met Sourcegear Vault.
+                        </List.Description>
+                      </Accordion.Content>
+                    </Accordion>
+                  </List.Content>
+                </List.Item>
+              </List.List>
+            </List.Content>
+          </List.Item>
 
-      <List.Item>
-        <List.Icon name="folder" />
-        <List.Content>
-          <List.Header>2006</List.Header>
-          <List.List>
-            <List.Item>
-              <List.Content>
-                <Accordion>
-                  <Accordion.Title>
-                    <List.Header>Internship @ ABF Research</List.Header>
-                  </Accordion.Title>
-                  <Accordion.Content>
-                    <List.Description>
-                      Ontwerpen, ontwikkelen, implementeren en testen van
-                      product-verkoop website en product-support website aan de
-                      hand van usabilityrichtlijnen en persona´s. Kernbegrippen:
-                      Gebruiksvriendelijkheid, look-and-feel, learnability en
-                      accessibility.
-                    </List.Description>
-                  </Accordion.Content>{' '}
-                </Accordion>
-              </List.Content>
-            </List.Item>
-          </List.List>
-        </List.Content>
-      </List.Item>
+          <List.Item>
+            <List.Icon name="folder" />
+            <List.Content>
+              <List.Header>2006 - 2007</List.Header>
+              <List.List>
+                <List.Item>
+                  <List.Content>
+                    <Accordion>
+                      <Accordion.Title>
+                        <List.Header>
+                          E-commerce / Interaction designer @ Consolit
+                          <Icon name="dropdown" />
+                        </List.Header>
+                      </Accordion.Title>
+                      <Accordion.Content>
+                        <List.Description>
+                          Ontwerpen, ontwikkelen en verspreiden van
+                          e-nieuwsbrieven aan de hand van templates. Aan de hand
+                          van gesprekken met de klant meerdere grafische
+                          (re)designs maken, het grafische ontwerp vertalen naar
+                          html en css-stylen (Dreamweaver) en vervolgens met
+                          behulp van Visual Web Developer het prototype van de
+                          webshop (aspx) dat door de programmeur gemaakt is,
+                          aanpassen aan het design en de gewenste instellingen
+                          van de klant. Beheren van Google Adword campagnes en
+                          inspelen op de clickrate en dergelijke. Begeleiden van
+                          HBO-stagiaire.
+                        </List.Description>
+                      </Accordion.Content>
+                    </Accordion>
+                  </List.Content>
+                </List.Item>
+              </List.List>
+            </List.Content>
+          </List.Item>
 
-      <List.Item>
-        <List.Icon name="folder" />
-        <List.Content>
-          <List.Header>2004 - 2006</List.Header>
-          <List.List>
-            <List.Item>
-              <List.Content>
-                <Accordion>
-                  <Accordion.Title>
-                    <List.Header>Webdesigner, webdeveloper @ Arxit</List.Header>
-                  </Accordion.Title>
-                  <Accordion.Content>
-                    <List.Description>
-                      Vormgeven en ontwikkelen van websites, autostickers en
-                      animaties die informatie bieden over de diensten en
-                      producten van verschillende bedrijven. Gewerkt met
-                      producten zoals Adobe Photoshop, Macromedia Dreamweaver,
-                      Macromedia Flash.
-                    </List.Description>
-                  </Accordion.Content>{' '}
-                </Accordion>
-              </List.Content>
-            </List.Item>
-          </List.List>
-        </List.Content>
-      </List.Item>
+          <List.Item>
+            <List.Icon name="folder" />
+            <List.Content>
+              <List.Header>2006</List.Header>
+              <List.List>
+                <List.Item>
+                  <List.Content>
+                    <Accordion>
+                      <Accordion.Title>
+                        <List.Header>
+                          Internship @ ABF Research <Icon name="dropdown" />
+                        </List.Header>
+                      </Accordion.Title>
+                      <Accordion.Content>
+                        <List.Description>
+                          Ontwerpen, ontwikkelen, implementeren en testen van
+                          product-verkoop website en product-support website aan
+                          de hand van usabilityrichtlijnen en persona´s.
+                          Kernbegrippen: Gebruiksvriendelijkheid, look-and-feel,
+                          learnability en accessibility.
+                        </List.Description>
+                      </Accordion.Content>
+                    </Accordion>
+                  </List.Content>
+                </List.Item>
+              </List.List>
+            </List.Content>
+          </List.Item>
 
-      <List.Item>
-        <List.Icon name="folder" />
-        <List.Content>
-          <List.Header>2002</List.Header>
-          <List.List>
-            <List.Item>
-              <List.Content>
-                <Accordion>
-                  <Accordion.Title>
-                    <List.Header>Internship @ Tutticolori</List.Header>
-                  </Accordion.Title>
-                  <Accordion.Content>
-                    <List.Description>
-                      Ontwerpen, ontwikkelen en animeren van verschillende
-                      reclameuitingen. Implementeren van plug-and-play
-                      CMS-systemen, chatrooms, gastenboek en E-cards.
-                    </List.Description>
-                  </Accordion.Content>{' '}
-                </Accordion>
-              </List.Content>
-            </List.Item>
-          </List.List>
-        </List.Content>
-      </List.Item>
+          <List.Item>
+            <List.Icon name="folder" />
+            <List.Content>
+              <List.Header>2004 - 2006</List.Header>
+              <List.List>
+                <List.Item>
+                  <List.Content>
+                    <Accordion>
+                      <Accordion.Title>
+                        <List.Header>
+                          Webdesigner, webdeveloper @ Arxit
+                          <Icon name="dropdown" />
+                        </List.Header>
+                      </Accordion.Title>
+                      <Accordion.Content>
+                        <List.Description>
+                          Vormgeven en ontwikkelen van websites, autostickers en
+                          animaties die informatie bieden over de diensten en
+                          producten van verschillende bedrijven. Gewerkt met
+                          producten zoals Adobe Photoshop, Macromedia
+                          Dreamweaver, Macromedia Flash.
+                        </List.Description>
+                      </Accordion.Content>
+                    </Accordion>
+                  </List.Content>
+                </List.Item>
+              </List.List>
+            </List.Content>
+          </List.Item>
 
-      <List.Item>
-        <List.Icon name="folder" />
-        <List.Content>
-          <List.Header>2002</List.Header>
-          <List.List>
-            <List.Item>
-              <List.Content>
-                <Accordion>
-                  <Accordion.Title>
-                    <List.Header>Internship @ JR Creatie + Media</List.Header>
-                  </Accordion.Title>
-                  <Accordion.Content>
-                    <List.Description>
-                      Ontwerpen, ontwikkelen en animeren van websites uit
-                      lopende projecten.
-                    </List.Description>
-                  </Accordion.Content>{' '}
-                </Accordion>
-              </List.Content>
-            </List.Item>
-          </List.List>
-        </List.Content>
-      </List.Item>
+          <List.Item>
+            <List.Icon name="folder" />
+            <List.Content>
+              <List.Header>2002</List.Header>
+              <List.List>
+                <List.Item>
+                  <List.Content>
+                    <Accordion>
+                      <Accordion.Title>
+                        <List.Header>
+                          Internship @ Tutticolori <Icon name="dropdown" />
+                        </List.Header>
+                      </Accordion.Title>
+                      <Accordion.Content>
+                        <List.Description>
+                          Ontwerpen, ontwikkelen en animeren van verschillende
+                          reclameuitingen. Implementeren van plug-and-play
+                          CMS-systemen, chatrooms, gastenboek en E-cards.
+                        </List.Description>
+                      </Accordion.Content>
+                    </Accordion>
+                  </List.Content>
+                </List.Item>
+              </List.List>
+            </List.Content>
+          </List.Item>
+
+          <List.Item>
+            <List.Icon name="folder" />
+            <List.Content>
+              <List.Header>2002</List.Header>
+              <List.List>
+                <List.Item>
+                  <List.Content>
+                    <Accordion>
+                      <Accordion.Title>
+                        <List.Header>
+                          Internship @ JR Creatie + Media
+                          <Icon name="dropdown" />
+                        </List.Header>
+                      </Accordion.Title>
+                      <Accordion.Content>
+                        <List.Description>
+                          Ontwerpen, ontwikkelen en animeren van websites uit
+                          lopende projecten.
+                        </List.Description>
+                      </Accordion.Content>
+                    </Accordion>
+                  </List.Content>
+                </List.Item>
+              </List.List>
+            </List.Content>
+          </List.Item>
+        </Accordion.Content>
+      </Accordion>
     </List>
   </div>;
 

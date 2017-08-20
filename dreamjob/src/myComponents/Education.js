@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Header, Accordion } from 'semantic-ui-react';
+import { List, Header, Accordion, Icon } from 'semantic-ui-react';
 
 const Education = () =>
   <div>
@@ -19,7 +19,7 @@ const Education = () =>
                   <Accordion.Title>
                     <List.Header>
                       Ingenieur: Mayor Communication and Multimedia Design @
-                      Haagse Hogeschool/TH Rijswijk
+                      Haagse Hogeschool/TH Rijswijk <Icon name="dropdown" />
                     </List.Header>
                   </Accordion.Title>
                   <Accordion.Content>
@@ -74,6 +74,7 @@ const Education = () =>
                   <Accordion.Title>
                     <List.Header>
                       Multimedia Vormgeven @ Grafisch Lyceum Rotterdam
+                      <Icon name="dropdown" />
                     </List.Header>
                   </Accordion.Title>
                   <Accordion.Content>
