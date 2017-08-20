@@ -9,7 +9,6 @@ import ProfSkills from './../myComponents/ProfSkills';
 import PersSkills from './../myComponents/PersSkills';
 import Training from './../myComponents/Training';
 import SecActivities from './../myComponents/SecActivities';
-import Footer from './../myComponents/Footer';
 
 class Resume extends Component {
   render() {
@@ -56,8 +55,6 @@ class Resume extends Component {
               </Segment>
             </Grid.Column>
           </Grid.Row>
-
-          <Footer />
         </Grid>
       </div>
     );
