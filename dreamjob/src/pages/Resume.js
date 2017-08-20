@@ -1,17 +1,22 @@
 import React, { Component } from 'react';
-import { Grid, Segment } from 'semantic-ui-react';
+import { Grid, Segment, Header } from 'semantic-ui-react';
 
 import Name from './../myComponents/Name';
 import Contact from './../myComponents/Contact';
 import Employment from './../myComponents/Employment';
 import Education from './../myComponents/Education';
-import Skills from './../myComponents/Skills';
-import Footer from './../myComponents/Footer';
+import ProfSkills from './../myComponents/ProfSkills';
+import PersSkills from './../myComponents/PersSkills';
+import Training from './../myComponents/Training';
+import SecActivities from './../myComponents/SecActivities';
 
 class Resume extends Component {
   render() {
     return (
       <div>
+        <Header as="h3" block>
+          Resume
+        </Header>
         <Grid columns={2} stackable>
           <Grid.Row>
             <Grid.Column width={10}>
@@ -34,18 +39,22 @@ class Resume extends Component {
               <Segment>
                 <Education />
               </Segment>
+              <Segment>
+                <SecActivities />
+              </Segment>
             </Grid.Column>
             <Grid.Column width={6}>
               <Segment>
-                <Skills />
+                <ProfSkills />
               </Segment>
               <Segment>
-                <Skills />
+                <PersSkills />
+              </Segment>
+              <Segment>
+                <Training />
               </Segment>
             </Grid.Column>
           </Grid.Row>
-
-          <Footer />
         </Grid>
       </div>
     );
