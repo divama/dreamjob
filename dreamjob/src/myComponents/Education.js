@@ -9,7 +9,7 @@ const Education = () =>
 
     <List divided relaxed>
       <List.Item>
-        <List.Icon name="book" />
+        <List.Icon name="student" />
         <List.Content>
           <List.Header>2003 - 2006</List.Header>
           <List.List>
@@ -47,7 +47,7 @@ const Education = () =>
       </List.Item>
 
       <List.Item>
-        <List.Icon name="book" />
+        <List.Icon name="student" />
         <List.Content>
           <List.Header>2003 - 2006</List.Header>
           <List.List>
@@ -64,7 +64,7 @@ const Education = () =>
       </List.Item>
 
       <List.Item>
-        <List.Icon name="book" />
+        <List.Icon name="student" />
         <List.Content>
           <List.Header>1999 - 2003</List.Header>
           <List.List>
