@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Header, Accordion, Icon } from 'semantic-ui-react';
+import { Header, Accordion, Icon } from 'semantic-ui-react';
 
 const SecActivities = () =>
   <div>
@@ -10,127 +10,45 @@ const SecActivities = () =>
         </Header>
       </Accordion.Title>
       <Accordion.Content>
-        <List divided relaxed>
-          <List.Item>
-            <List.Icon name="book" />
-            <List.Content>
-              <List.Header>2010</List.Header>
-              <List.List>
-                <List.Item>
-                  <List.Content>
-                    <Accordion>
-                      <Accordion.Title>
-                        <List.Header>
-                          MOSS/WCM SP07 website UMC st.Radboud uitgeroepen tot
-                          beste ziekenhuiswebsite van nederland! @ Tamtam
-                          <Icon name="dropdown" />
-                        </List.Header>
-                      </Accordion.Title>
-                      <Accordion.Content>
-                        <List.Description>
-                          (www.umcn.nl) volgens www.zorgwebmonitor.nl
-                        </List.Description>
-                      </Accordion.Content>
-                    </Accordion>
-                  </List.Content>
-                </List.Item>
-              </List.List>
-            </List.Content>
-          </List.Item>
 
-          <List.Item>
-            <List.Icon name="book" />
-            <List.Content>
-              <List.Header>2009</List.Header>
-              <List.List>
-                <List.Item>
-                  <List.Content>
-                    <Accordion>
-                      <Accordion.Title>
-                        <List.Header>
-                          SharePointMagazine publicaties @ Tamtam
-                          <Icon name="dropdown" />
-                        </List.Header>
-                      </Accordion.Title>
-                      <Accordion.Content>
-                        <List.Description>
-                          Verschillende publicaties geschreven over SharePoint’s
-                          2007 Branding Limitations. www.sharepointmagazine.net
-                        </List.Description>
-                      </Accordion.Content>
-                    </Accordion>
-                  </List.Content>
-                </List.Item>
-              </List.List>
-            </List.Content>
-          </List.Item>
+        <Accordion exclusive={false}>
+          <Accordion.Title>
+            <Icon name="book" /> 2010 <br />MOSS/WCM SP07 website UMC st.Radboud
+            uitgeroepen tot beste ziekenhuiswebsite van nederland! @ Tamtam
+            <Icon name="dropdown" />
+          </Accordion.Title>
+          <Accordion.Content>
+            (www.umcn.nl) volgens www.zorgwebmonitor.nl
+          </Accordion.Content>
 
-          <List.Item>
-            <List.Icon name="book" />
-            <List.Content>
-              <List.Header>2009</List.Header>
-              <List.List>
-                <List.Item>
-                  <List.Content>
-                    <Accordion>
-                      <Accordion.Title>
-                        <List.Header>
-                          Blog over front-end development voor SharePoint 2007 @
-                          Tamtam <Icon name="dropdown" />
-                        </List.Header>
-                      </Accordion.Title>
-                      <Accordion.Content>
-                        <List.Description>www.tamtam.nl</List.Description>
-                      </Accordion.Content>
-                    </Accordion>
-                  </List.Content>
-                </List.Item>
-              </List.List>
-            </List.Content>
-          </List.Item>
+          <Accordion.Title>
+            <Icon name="book" /> 2009 <br />SharePointMagazine publicaties @
+            Tamtam
+            <Icon name="dropdown" />
+          </Accordion.Title>
+          <Accordion.Content>
+            Verschillende publicaties geschreven over SharePoint’s 2007 Branding
+            Limitations. www.sharepointmagazine.net
+          </Accordion.Content>
 
-          <List.Item>
-            <List.Icon name="book" />
-            <List.Content>
-              <List.Header>2006</List.Header>
-              <List.List>
-                <List.Item>
-                  <List.Content>
-                    <List.Header>
-                      Hands-on training for Flash @ Haagse Hogeschool/TH
-                      Rijswijk
-                    </List.Header>
-                    <List.Description />
-                  </List.Content>
-                </List.Item>
-              </List.List>
-            </List.Content>
-          </List.Item>
+          <Accordion.Title>
+            <Icon name="book" /> 2009 <br />Blog over front-end development voor
+            SharePoint 2007 @ Tamtam <Icon name="dropdown" />
+          </Accordion.Title>
+          <Accordion.Content>www.tamtam.nl</Accordion.Content>
 
-          <List.Item>
-            <List.Icon name="book" />
-            <List.Content>
-              <List.Header>2004 - 2005</List.Header>
-              <List.List>
-                <List.Item>
-                  <List.Content>
-                    <Accordion>
-                      <Accordion.Title>
-                        <List.Header>
-                          Kampleider introductiekamp informatica @ Haag Uit.
-                          <Icon name="dropdown" />
-                        </List.Header>
-                      </Accordion.Title>
-                      <Accordion.Content>
-                        <List.Description>www.haaguit.com </List.Description>
-                      </Accordion.Content>
-                    </Accordion>
-                  </List.Content>
-                </List.Item>
-              </List.List>
-            </List.Content>
-          </List.Item>
-        </List>
+          <p>
+            <br />
+            <Icon name="book" />2006 <br />Hands-on training for Flash @ Haagse
+            Hogeschool/TH Rijswijk
+          </p>
+
+          <Accordion.Title>
+            <Icon name="book" /> 2004 - 2005 <br />Kampleider introductiekamp
+            informatica @ Haag Uit. <Icon name="dropdown" />
+          </Accordion.Title>
+          <Accordion.Content>www.haaguit.com</Accordion.Content>
+        </Accordion>
       </Accordion.Content>
     </Accordion>
   </div>;
