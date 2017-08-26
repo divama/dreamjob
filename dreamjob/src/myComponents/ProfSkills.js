@@ -143,6 +143,14 @@ const ProfSkills = () =>
         />
       </List.Item>
       <List.Item>
+        Illustrator<Rating
+          defaultRating={3}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
         Sketch<Rating
           defaultRating={1}
           maxRating={5}
