@@ -10,6 +10,7 @@ const SecActivities = () =>
         </Header>
       </Accordion.Title>
       <Accordion.Content>
+
         <Accordion exclusive={false}>
           <Accordion.Title>
             <Icon name="book" /> 2010 <br />MOSS/WCM SP07 website UMC st.Radboud

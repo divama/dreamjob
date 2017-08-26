@@ -1,12 +1,13 @@
 import React from 'react';
+
 import { Header, Accordion, Icon } from 'semantic-ui-react';
+
 
 const Employment = () =>
   <div>
     <Header as="h3" dividing>
       Employment
     </Header>
-
     <Accordion exclusive={false}>
       <Accordion.Title>
         <Icon name="folder" /> 2017 - now <br /> Software Engineer (Front-end
