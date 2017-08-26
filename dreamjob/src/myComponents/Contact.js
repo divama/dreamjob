@@ -11,32 +11,40 @@ const Contact = () =>
       <List.Item>
         <List.Icon name="id card outline" size="large" verticalAlign="middle" />
         <List.Content>
-          <List.Header as="a">Linkedin</List.Header>
-          <List.Description as="a">
-            https://www.linkedin.com/in/diantha
+          <List.Header>Linkedin</List.Header>
+          <List.Description>
+            <a target="_blank" href="https://www.linkedin.com/in/diantha">
+              https://www.linkedin.com/in/diantha
+            </a>
           </List.Description>
         </List.Content>
       </List.Item>
       <List.Item>
         <List.Icon name="sitemap" size="large" verticalAlign="middle" />
         <List.Content>
-          <List.Header as="a">Website</List.Header>
-          <List.Description as="a">
-            https://divama.github.io/Me
+          <List.Header>Website</List.Header>
+          <List.Description>
+            <a target="_blank" href="https://divama.github.io/Me">
+              https://divama.github.io/Me
+            </a>
           </List.Description>
         </List.Content>
       </List.Item>
       <List.Item>
         <List.Icon name="github" size="large" verticalAlign="middle" />
         <List.Content>
-          <List.Header as="a">Github</List.Header>
-          <List.Description as="a">https://github.com/divama</List.Description>
+          <List.Header>Github</List.Header>
+          <List.Description>
+            <a target="_blank" href="https://github.com/divama">
+              https://github.com/divama
+            </a>
+          </List.Description>
         </List.Content>
       </List.Item>
       <List.Item>
         <List.Icon name="car" size="large" verticalAlign="middle" />
         <List.Content>
-          <List.Header as="a">Maximum traveling distance</List.Header>
+          <List.Header>Maximum traveling distance</List.Header>
           <List.Description>25km from Capelle aan den IJssel</List.Description>
         </List.Content>
       </List.Item>
