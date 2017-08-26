@@ -7,7 +7,7 @@ const Employment = () =>
       Employment
     </Header>
 
-    <Accordion>
+    <Accordion exclusive={false}>
       <Accordion.Title>
         <Icon name="folder" /> 2017 - now <br /> Software Engineer (Front-end
         Developer) @ Exact : Exact Design System Team <Icon name="dropdown" />
@@ -68,12 +68,14 @@ const Employment = () =>
         Programma's: Dreamweaver, Illustrator, Photoshop, Flash, After Effects,
         Sorenson Squeeze, Soundbooth, WordPress, Mailca, Mailcamp.
       </Accordion.Content>
+    </Accordion>
 
-      <Accordion>
-        <Accordion.Title>
-          More <Icon name="dropdown" />
-        </Accordion.Title>
-        <Accordion.Content>
+    <Accordion>
+      <Accordion.Title>
+        More <Icon name="dropdown" />
+      </Accordion.Title>
+      <Accordion.Content>
+        <Accordion exclusive={false}>
           <Accordion.Title>
             <Icon name="folder" /> 2009 - 2015 <br />Voluntary Designer and
             Front-end engineer @ PKN Rotterdam Alexanderpolder : Commissie
@@ -168,8 +170,8 @@ const Employment = () =>
             Ontwerpen, ontwikkelen en animeren van websites uit lopende
             projecten.
           </Accordion.Content>
-        </Accordion.Content>
-      </Accordion>
+        </Accordion>
+      </Accordion.Content>
     </Accordion>
   </div>;
 

@@ -10,7 +10,7 @@ const Education = () =>
         </Header>
       </Accordion.Title>
       <Accordion.Content>
-        <Accordion>
+        <Accordion exclusive={false}>
           <Accordion.Title>
             <Icon name="student" /> 2003 - 2006 <br /> Ingenieur: Mayor
             Communication and Multimedia Design @ Haagse Hogeschool/TH Rijswijk
