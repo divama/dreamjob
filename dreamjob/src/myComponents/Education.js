@@ -5,7 +5,7 @@ const Education = () =>
   <div>
     <Accordion>
       <Accordion.Title>
-        <Header as="h3">
+        <Header as="h3" dividing>
           Education <Icon name="dropdown" />
         </Header>
       </Accordion.Title>

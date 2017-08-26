@@ -5,7 +5,7 @@ const SecActivities = () =>
   <div>
     <Accordion>
       <Accordion.Title>
-        <Header as="h3">
+        <Header as="h3" dividing>
           Secondary Activities <Icon name="dropdown" />
         </Header>
       </Accordion.Title>
