@@ -1,5 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
+/_example files
+/node_modules
+
 # Compiled source #
 ###################
 *.com
