@@ -1,12 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
+import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-// Import css
-import './semantic.min.css';
-
-// Import Components
-import Resume from './pages/Resume';
-
-ReactDOM.render(<Resume />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
