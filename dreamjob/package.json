@@ -2,7 +2,7 @@
   "name": "dreamjob",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://divama.github.io/me/dreamjob",
+  "homepage": "http://divama.github.io/me",
   "dependencies": {
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
@@ -10,9 +10,12 @@
     "semantic-ui": "^2.2.13"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "semantic-ui-react": "0.71.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
