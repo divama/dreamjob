@@ -2,7 +2,7 @@
   "name": "dreamjob",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://divama.github.io/me",
+  "homepage": "http://divama.github.io/Me",
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^15.6.1",
