@@ -13,7 +13,11 @@ const Contact = () =>
         <List.Content>
           <List.Header>Linkedin</List.Header>
           <List.Description>
-            <a target="_blank" href="https://www.linkedin.com/in/diantha">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.linkedin.com/in/diantha"
+            >
               https://www.linkedin.com/in/diantha
             </a>
           </List.Description>
@@ -24,7 +28,11 @@ const Contact = () =>
         <List.Content>
           <List.Header>Website</List.Header>
           <List.Description>
-            <a target="_blank" href="https://divama.github.io/Me">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://divama.github.io/Me"
+            >
               https://divama.github.io/Me
             </a>
           </List.Description>
@@ -35,7 +43,11 @@ const Contact = () =>
         <List.Content>
           <List.Header>Github</List.Header>
           <List.Description>
-            <a target="_blank" href="https://github.com/divama">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://github.com/divama"
+            >
               https://github.com/divama
             </a>
           </List.Description>
