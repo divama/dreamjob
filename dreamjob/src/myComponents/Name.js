@@ -14,7 +14,7 @@ const Name = () =>
         <Header.Subheader>Front-end developer React</Header.Subheader>
       </Header.Content>
     </Header>
-    <p>
+    <p className="me-quote">
       Online media, That's what makes my heart beat faster. Developing
       beautiful, efficient online resources, which makes us happy together, the
       customer and me. Working in a driven team motivates, inspires and brings
