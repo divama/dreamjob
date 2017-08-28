@@ -7,10 +7,10 @@
 --------------------*/
 
 @background: @white;
-@borderWidth: 1px;
+@borderWidth: 0px;
 @border: @borderWidth solid @borderColor;
 
-@boxShadow: @subtleShadow;
+@boxShadow: none;
 @verticalPadding: 1em;
 @horizontalPadding: 1em;
 @padding: @verticalPadding @horizontalPadding;

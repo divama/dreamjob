@@ -1,3 +1,6 @@
 /*******************************
          Theme Overrides
 *******************************/
+.ui.inverted.attached.header.me-pageHeader {
+    background-color: @teal;
+}

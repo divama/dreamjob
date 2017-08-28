@@ -14,48 +14,50 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Header as="h3" block>
+        <Header as="h3" attached="top" inverted className="me-pageHeader">
           Resume
         </Header>
-        <Grid columns={2} stackable>
-          <Grid.Row>
-            <Grid.Column width={8}>
-              <Segment>
-                <Name />
-              </Segment>
-            </Grid.Column>
-            <Grid.Column width={4}>
-              <Segment>
-                <Contact />
-              </Segment>
-            </Grid.Column>
-          </Grid.Row>
+        <Segment attached>
+          <Grid columns={2} stackable>
+            <Grid.Row>
+              <Grid.Column width={8}>
+                <Segment>
+                  <Name />
+                </Segment>
+              </Grid.Column>
+              <Grid.Column width={4}>
+                <Segment>
+                  <Contact />
+                </Segment>
+              </Grid.Column>
+            </Grid.Row>
 
-          <Grid.Row>
-            <Grid.Column width={8}>
-              <Segment>
-                <Employment />
-              </Segment>
-              <Segment>
-                <Education />
-              </Segment>
-              <Segment>
-                <SecActivities />
-              </Segment>
-            </Grid.Column>
-            <Grid.Column width={4}>
-              <Segment>
-                <ProfSkills />
-              </Segment>
-              <Segment>
-                <PersSkills />
-              </Segment>
-              <Segment>
-                <Training />
-              </Segment>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
+            <Grid.Row>
+              <Grid.Column width={8}>
+                <Segment>
+                  <Employment />
+                </Segment>
+                <Segment>
+                  <Education />
+                </Segment>
+                <Segment>
+                  <SecActivities />
+                </Segment>
+              </Grid.Column>
+              <Grid.Column width={4}>
+                <Segment>
+                  <ProfSkills />
+                </Segment>
+                <Segment>
+                  <PersSkills />
+                </Segment>
+                <Segment>
+                  <Training />
+                </Segment>
+              </Grid.Column>
+            </Grid.Row>
+          </Grid>
+        </Segment>
       </div>
     );
   }

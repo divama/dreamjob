@@ -5,7 +5,7 @@
        Fonts
 --------------------*/
 
-@fontName          : 'Dosis';
+@fontName          : 'Handlee';
 @fontSmoothing     : antialiased;
 
 @headerFont        : Arial, Helvetica, sans-serif;
@@ -133,7 +133,7 @@
        Links
 --------------------*/
 
-@linkColor           : #4183C4;
+@linkColor           : @teal;
 @linkUnderline       : none;
 @linkHoverColor      : darken(saturate(@linkColor, 20), 15, relative);
 @linkHoverUnderline  : @linkUnderline;

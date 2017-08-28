@@ -8,7 +8,7 @@
  * http://opensource.org/licenses/MIT
  *
  */
-@import url('https://fonts.googleapis.com/css?family=Dosis:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Handlee:400,700,400italic,700italic&subset=latin');
 /*!
  * # Semantic UI 2.2.13 - Reset
  * http://github.com/semantic-org/semantic-ui/
@@ -651,12 +651,12 @@ p:last-child {
 --------------------*/
 
 a {
-  color: #4183C4;
+  color: #00B5AD;
   text-decoration: none;
 }
 
 a:hover {
-  color: #1e70bf;
+  color: #009a93;
   text-decoration: none;
 }
 
@@ -756,8 +756,8 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
 *******************************/
 
 .ui.header + p.me-quote {
-  font-family: 'Dosis', Arial, Helvetica, sans-serif;
-  font-size: 1.1em;
+  font-family: 'Handlee', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
 }
 
 /*******************************
@@ -13812,7 +13812,7 @@ a.ui.basic.black.label:hover {
 a.ui.basic.label:hover {
   text-decoration: none;
   background: none #FFFFFF;
-  color: #1e70bf;
+  color: #009a93;
   -webkit-box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   box-shadow: 1px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: none;
@@ -14282,12 +14282,12 @@ ol.ui.list ol li,
 .ui.list .list > a.item,
 .ui.list > a.item {
   cursor: pointer;
-  color: #4183C4;
+  color: #00B5AD;
 }
 
 .ui.list .list > a.item:hover,
 .ui.list > a.item:hover {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /* Linked Item Icons */
@@ -14302,12 +14302,12 @@ ol.ui.list ol li,
 .ui.list .list > .item a.header,
 .ui.list > .item a.header {
   cursor: pointer;
-  color: #4183C4 !important;
+  color: #00B5AD !important;
 }
 
 .ui.list .list > .item a.header:hover,
 .ui.list > .item a.header:hover {
-  color: #1e70bf !important;
+  color: #009a93 !important;
 }
 
 /* Floated Content */
@@ -14483,7 +14483,7 @@ ol.ui.list ol li,
 
 .ui.inverted.list .list > a.item:hover,
 .ui.inverted.list > a.item:hover {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /* Linking Content */
@@ -14493,7 +14493,7 @@ ol.ui.list ol li,
 }
 
 .ui.inverted.list .item a:not(.ui):hover {
-  color: #1e70bf !important;
+  color: #009a93 !important;
 }
 
 /*-------------------
@@ -16020,12 +16020,12 @@ ol.ui.horizontal.list li:before,
 .ui.segment {
   position: relative;
   background: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+  box-shadow: none;
   margin: 1rem 0em;
   padding: 1em 1em;
   border-radius: 0.28571429rem;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 0px solid rgba(34, 36, 38, 0.15);
 }
 
 .ui.segment:first-child {
@@ -16047,7 +16047,7 @@ ol.ui.horizontal.list li:before,
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid rgba(34, 36, 38, 0.15);
+  border-bottom: 0px solid rgba(34, 36, 38, 0.15);
 }
 
 .ui.vertical.segment:last-child {
@@ -16104,9 +16104,9 @@ ol.ui.horizontal.list li:before,
 
 .ui.basic.table.segment {
   background: #FFFFFF;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border: 0px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 
 .ui[class*="very basic"].table.segment {
@@ -16149,7 +16149,7 @@ ol.ui.horizontal.list li:before,
   left: 0px;
   position: absolute;
   width: 100%;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 0px solid rgba(34, 36, 38, 0.15);
   -webkit-box-shadow: '';
   box-shadow: '';
 }
@@ -16315,9 +16315,9 @@ ol.ui.horizontal.list li:before,
   flex-direction: column;
   position: relative;
   margin: 1rem 0em;
-  border: 1px solid rgba(34, 36, 38, 0.15);
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  border: 0px solid rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+  box-shadow: none;
   border-radius: 0.28571429rem;
 }
 
@@ -16340,7 +16340,7 @@ ol.ui.horizontal.list li:before,
   -webkit-box-shadow: none;
   box-shadow: none;
   border: none;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 0px solid rgba(34, 36, 38, 0.15);
 }
 
 .ui.segments:not(.horizontal) > .segment:first-child {
@@ -16359,8 +16359,8 @@ ol.ui.horizontal.list li:before,
   bottom: 0px;
   margin-top: 0em;
   margin-bottom: 0em;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
+  -webkit-box-shadow: none, none;
+  box-shadow: none, none;
   border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 
@@ -16373,7 +16373,7 @@ ol.ui.horizontal.list li:before,
 /* Nested Group */
 
 .ui.segments > .ui.segments {
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 0px solid rgba(34, 36, 38, 0.15);
   margin: 1rem 1rem;
 }
 
@@ -16399,11 +16399,11 @@ ol.ui.horizontal.list li:before,
   border-radius: 0px;
   padding: 0em;
   background-color: #FFFFFF;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15);
+  -webkit-box-shadow: none;
+  box-shadow: none;
   margin: 1rem 0em;
   border-radius: 0.28571429rem;
-  border: 1px solid rgba(34, 36, 38, 0.15);
+  border: 0px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Nested Horizontal Group */
@@ -16415,7 +16415,7 @@ ol.ui.horizontal.list li:before,
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-top: 1px solid rgba(34, 36, 38, 0.15);
+  border-top: 0px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Horizontal Segment */
@@ -16432,7 +16432,7 @@ ol.ui.horizontal.list li:before,
   border: none;
   -webkit-box-shadow: none;
   box-shadow: none;
-  border-left: 1px solid rgba(34, 36, 38, 0.15);
+  border-left: 0px solid rgba(34, 36, 38, 0.15);
 }
 
 /* Border Fixes */
@@ -16810,12 +16810,12 @@ ol.ui.horizontal.list li:before,
   top: 0px;
   bottom: 0px;
   border-radius: 0px;
-  margin: 0em -1px;
-  width: calc(100% +  2px );
-  max-width: calc(100% +  2px );
+  margin: 0em 0px;
+  width: calc(100% +  0px );
+  max-width: calc(100% +  0px );
   -webkit-box-shadow: none;
   box-shadow: none;
-  border: 1px solid #D4D4D5;
+  border: 0px solid #D4D4D5;
 }
 
 .ui.attached:not(.message) + .ui.attached.segment:not(.top) {
@@ -16843,8 +16843,8 @@ ol.ui.horizontal.list li:before,
   margin-top: 0em;
   top: 0px;
   margin-bottom: 1rem;
-  -webkit-box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
-  box-shadow: 0px 1px 2px 0 rgba(34, 36, 38, 0.15), none;
+  -webkit-box-shadow: none, none;
+  box-shadow: none, none;
   border-radius: 0em 0em 0.28571429rem 0.28571429rem;
 }
 
@@ -16899,6 +16899,10 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
+
+.ui.inverted.attached.header.me-pageHeader {
+  background-color: #00B5AD;
+}
 
 /*******************************
          Site Overrides
@@ -17298,7 +17302,7 @@ ol.ui.horizontal.list li:before,
 }
 
 .ui.steps .step.active .title {
-  color: #4183C4;
+  color: #00B5AD;
 }
 
 .ui.ordered.steps .step.active:before,
@@ -17640,11 +17644,11 @@ ol.ui.horizontal.list li:before,
 /* Link */
 
 .ui.breadcrumb a {
-  color: #4183C4;
+  color: #00B5AD;
 }
 
 .ui.breadcrumb a:hover {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /* Icon Divider */
@@ -25978,7 +25982,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .content > a.header:hover,
 .ui.card > .content > a.header:hover {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /* Meta */
@@ -26098,7 +26102,7 @@ Floated Menu / Item
 
 .ui.cards > .card > .extra a:not(.ui):hover,
 .ui.card > .extra a:not(.ui):hover {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /*******************************
@@ -26873,7 +26877,7 @@ a.ui.card:hover,
 }
 
 .ui.comments .comment a.author:hover {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /*--------------
@@ -27612,7 +27616,7 @@ a.ui.card:hover,
 }
 
 .ui.items > .item > .content > a.header:hover {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /* Meta */
@@ -27843,7 +27847,7 @@ a.ui.card:hover,
 
 .ui.items a.item:hover .content .header,
 .ui.link.items > .item:hover .content .header {
-  color: #1e70bf;
+  color: #009a93;
 }
 
 /*--------------
