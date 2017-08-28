@@ -15,7 +15,7 @@ class Resume extends Component {
     return (
       <div>
         <Header as="h3" block>
-          20 Resume
+          *32* Resume
         </Header>
         <Grid columns={2} stackable>
           <Grid.Row>
