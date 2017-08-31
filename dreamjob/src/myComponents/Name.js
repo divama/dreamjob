@@ -1,7 +1,10 @@
 import React from 'react';
 import { Header, Image } from 'semantic-ui-react';
 
-const Name = () =>
+import MarkDown from './../controllers/Markdown';
+import personalNote from './../pages/personalNote.md';
+
+const Name = () => (
   <div>
     <Header as="h2">
       <Image
@@ -15,15 +18,9 @@ const Name = () =>
       </Header.Content>
     </Header>
     <p className="me-quote">
-      Online media, That's what makes my heart beat faster. Developing
-      beautiful, efficient online resources, which makes us happy together, the
-      customer and me. Working in a driven team motivates, inspires and brings
-      out the best in each other. Is the interaction clear? Is the message
-      correct? Do we use the right medium? Do we use the right technique? Is it
-      responsive? Is it mobile first? Is it reusable? Is it scalable? Is it
-      clean code? Does the user understands it? When the whole picture is
-      correct only then I am satisfied. Then I can be proud!
+      <MarkDown src={personalNote} />
     </p>
-  </div>;
+  </div>
+);
 
 export default Name;
