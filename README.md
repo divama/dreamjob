@@ -11,6 +11,6 @@ Divama / me (Resumer)
 
 1. Clone repo from [https://github.com/divama/me.git](https://github.com/divama/me.git)
 2. Navigate to folder me/dreamjob
-3. Run `npm install`. Choose default settings for installation of semantic
+3. Run `npm install --only=production`. Choose default settings for installation of semantic
 4. When ready, run `npm start`.
 5. Enjoy!
