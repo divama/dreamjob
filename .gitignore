@@ -1,17 +1,17 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/dreamjob/node_modules
+/node_modules
 
 # production
-/dreamjob/build
+/build
 
 # semantic
-/dreamjob/semantic/dist/**/*
-/dreamjob/semantic/dist/**/*
-/dreamjob/src/themes/**
-!/dreamjob/src/themes/divama
-!/dreamjob/src/themes/divama/**
+/semantic/dist/**/*
+/semantic/dist/**/*
+/src/themes/**
+!/src/themes/divama
+!/src/themes/divama/**
 
 # misc
 .DS_Store
