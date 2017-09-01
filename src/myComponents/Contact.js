@@ -31,9 +31,9 @@ const Contact = () =>
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://divama.github.io/Me"
+              href="https://divama.github.io/dreamjob"
             >
-              https://divama.github.io/Me
+              https://divama.github.io/dreamjob
             </a>
           </List.Description>
         </List.Content>
