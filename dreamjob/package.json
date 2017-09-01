@@ -4,25 +4,25 @@
   "private": true,
   "author": "Diantha van Marion",
   "homepage": "http://divama.github.io/me",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "concurrently": "^3.5.0",
+    "gh-pages": "^1.0.0",
+    "semantic-ui-react": "^0.71.4",
+    "semantic-ui": "^2.2.13",
+    "npm-clean": "1.0.3",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-markdown": "^2.5.0",
     "react-scripts": "1.0.11"
-  },
-  "devDependencies": {
-    "gh-pages": "^1.0.0",
-    "semantic-ui-react": "^0.71.4",
-    "semantic-ui": "^2.2.13"
   },
   "scripts": {
     "watch-and-copy-semantic-to-dist": "gulp --gulpfile semantic/gulpfile.js",
     "watch-and-copy-dist-to-src": "gulp watch --gulpfile gulpfile.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start":
-      "concurrently \"react-scripts start\" \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
+    "start": "react-scripts start",
+    "start-and-watch-css": "concurrently \"react-scripts start\" \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
