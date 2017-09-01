@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "author": "Diantha van Marion",
-  "homepage": "http://divama.github.io/me",
+  "homepage": "http://divama.github.io/dreamjob",
   "dependencies": {
     "react-scripts": "1.0.11",
     "react-dom": "^15.6.1",
