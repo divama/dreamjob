@@ -5,6 +5,7 @@
   "author": "Diantha van Marion",
   "homepage": "http://divama.github.io/me",
   "dependencies": {
+    "concurrently": "^3.5.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-markdown": "^2.5.0",
@@ -16,9 +17,10 @@
     "semantic-ui": "^2.2.13"
   },
   "scripts": {
+    "watch-semantic-dist": "gulp --gulpfile semantic/gulpfile.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
+    "start": "concurrently \"react-scripts start\" \"npm run watch-semantic-dist\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
