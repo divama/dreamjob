@@ -9,6 +9,13 @@
 # production
 /build
 
+# semantic
+/semantic/dist/**/*
+/semantic/dist/**/*
+/src/themes/**
+!/src/themes/divama
+!/src/themes/divama/**
+
 # misc
 .DS_Store
 .env.local
