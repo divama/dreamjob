@@ -18,14 +18,12 @@
   },
   "scripts": {
     "watch-and-copy-semantic-to-dist": "gulp --gulpfile semantic/gulpfile.js",
-    "copy-dist-to-src": "gulp --gulpfile gulpfile.js",
     "watch-and-copy-dist-to-src": "gulp watch --gulpfile gulpfile.js",
-    "watch-css":
-      "concurrently \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "concurrently \"react-scripts start\" \"npm run watch-css\"",
-    "build": "npm run copy-dist-to-src && react-scripts build",
+    "start":
+      "concurrently \"react-scripts start\" \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
+    "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
