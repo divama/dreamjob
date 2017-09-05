@@ -195,7 +195,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
         Global Overrides
 *******************************/
 
-.ui.header + p.me-quote {
+.ui.header + .me-quote p {
   font-family: 'Handlee', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
 }
