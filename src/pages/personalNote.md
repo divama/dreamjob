@@ -1,1 +1,10 @@
-Online media, That's what makes my heart beat faster. Developing beautiful, efficient online resources, which makes us happy together, the customer and me. Working in a driven team motivates, inspires and brings out the best in each other. Is the interaction clear? Is the message correct? Do we use the right medium? Do we use the right technique? Is it responsive? Is it mobile first? Is it reusable? Is it scalable? Is it clean code? Does the user understands it? When the whole picture is correct only then I am satisfied. Then I can be proud!
+
+Always looking for the perfect dream job, where I get the freedom to plan myself and create,
+which is challenging and where I can leave my digital footprint,
+in which I learn and grow through others, training and just doing,
+in which everyone is an important link in the chain, regardless education or gender,
+in which I have colleagues who are just like people, just like me.
+It's about the result and the choices you made (together with your team) to get there, isn't it?
+
+I have experience working with scrum in a team with developers, designers, quality engeneers and fellow front-enders, and have always been ux minded.
+In addition, I care about people, am a strict person, like making plans, making lists, setting priorities and honour existing commitments.
