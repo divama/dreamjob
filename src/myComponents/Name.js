@@ -17,9 +17,7 @@ const Name = () => (
         <Header.Subheader>Front-end developer React</Header.Subheader>
       </Header.Content>
     </Header>
-    <p className="me-quote">
-      <MarkDown src={personalNote} />
-    </p>
+    <MarkDown src={personalNote} className="me-quote" />
   </div>
 );
 
