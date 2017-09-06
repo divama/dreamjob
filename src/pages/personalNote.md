@@ -6,5 +6,5 @@ in which everyone is an important link in the chain, regardless education or gen
 in which I have colleagues who are just like people, just like me.
 It's about the result and the choices you made (together with your team) to get there, isn't it?
 
-I have experience working with scrum in a team with developers, designers, quality engeneers and fellow front-enders, and have always been UX minded.
+I have experience working Agile with Scrum (continuous integration) in a team with developers, designers, quality engeneers and fellow front-enders, and have always been UX minded.
 In addition, I care about people, am a strict person, like making plans, making lists, setting priorities and honour existing commitments.
