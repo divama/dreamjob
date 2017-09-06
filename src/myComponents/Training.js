@@ -15,6 +15,14 @@ const Training = () => (
             <List.Icon name="book" />
             <List.Content>
               <List.Header>2017</List.Header>
+              <List.Description>Presenting Effectively</List.Description>
+            </List.Content>
+          </List.Item>
+
+          <List.Item>
+            <List.Icon name="book" />
+            <List.Content>
+              <List.Header>2017</List.Header>
               <List.Description>ReactJS Redux course Pluralsight</List.Description>
             </List.Content>
           </List.Item>
