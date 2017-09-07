@@ -37,13 +37,18 @@ class Resume extends Component {
                   <Employment />
                 </Segment>
               </Grid.Column>
+              <Grid.Column mobile={12} tablet={12} only="mobile tablet">
+                <Segment>
+                  <Education />
+                </Segment>
+              </Grid.Column>
               <Grid.Column mobile={12} tablet={6} computer={4}>
                 <Segment>
                   <ProfSkills />
                 </Segment>
               </Grid.Column>
 
-              <Grid.Column mobile={12} tablet={6} computer={8}>
+              <Grid.Column computer={8} only="computer">
                 <Segment>
                   <Education />
                 </Segment>
@@ -65,7 +70,7 @@ class Resume extends Component {
                 </Segment>
               </Grid.Column>
 
-              <Grid.Column mobile={12} tablet={6} only="mobile tablet">
+              <Grid.Column mobile={12} tablet={12} only="mobile tablet">
                 <Segment>
                   <Contact />
                 </Segment>

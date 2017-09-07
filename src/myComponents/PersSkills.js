@@ -23,14 +23,15 @@ const PersSkills = () => (
           <List.Item>
             Team player<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
           </List.Item>
-          <List.Item>
-            Barista<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
-          </List.Item>
+
           <List.Item>
             EHBO<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
           </List.Item>
 
           {/* 3 stars */}
+          <List.Item>
+            Presenting<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+          </List.Item>
           <List.Item>
             Communication<Rating
               defaultRating={3}
@@ -40,17 +41,15 @@ const PersSkills = () => (
             />
           </List.Item>
           <List.Item>
+            Barista<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+          </List.Item>
+          <List.Item>
             Table soccer<Rating
               defaultRating={3}
               maxRating={5}
               disabled
               className="right floated"
             />
-          </List.Item>
-
-          {/* 2 stars */}
-          <List.Item>
-            Presenting<Rating defaultRating={2} maxRating={5} disabled className="right floated" />
           </List.Item>
         </List>
 
