@@ -30,27 +30,35 @@ class Resume extends Component {
                   <Contact />
                 </Segment>
               </Grid.Column>
-            </Grid.Row>
 
-            <Grid.Row>
               <Grid.Column mobile={12} tablet={12} computer={8}>
                 <Segment>
                   <Employment />
-                </Segment>
-                <Segment>
-                  <Education />
-                </Segment>
-                <Segment>
-                  <SecActivities />
                 </Segment>
               </Grid.Column>
               <Grid.Column mobile={12} tablet={6} computer={4}>
                 <Segment>
                   <ProfSkills />
                 </Segment>
+              </Grid.Column>
+
+              <Grid.Column mobile={12} tablet={12} computer={8}>
+                <Segment>
+                  <Education />
+                </Segment>
+              </Grid.Column>
+              <Grid.Column mobile={12} tablet={6} computer={4}>
                 <Segment>
                   <PersSkills />
                 </Segment>
+              </Grid.Column>
+
+              <Grid.Column mobile={12} tablet={12} computer={8}>
+                <Segment>
+                  <SecActivities />
+                </Segment>
+              </Grid.Column>
+              <Grid.Column mobile={12} tablet={6} computer={4}>
                 <Segment>
                   <Training />
                 </Segment>
