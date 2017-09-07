@@ -7,11 +7,11 @@ node_modules
 *.log
 
 # semantic
-/semantic/dist
-/src/themes/*
+/src/themes/**
 !src/themes/default
 !/src/themes/divama
-dist
+/dist
+/dist/**
 
 #JetBrains IDE
 .idea
