@@ -12,7 +12,7 @@ const Employment = () => (
         <Icon name="folder" /> 2017 - now <br /> Software Engineer (Front-end Developer) @ Exact :
         Exact Design System Team
       </Accordion.Title>
-      <Accordion.Content active="true">
+      <Accordion.Content active={true}>
         At Exact we're developing our very own Design System to create a coherent experience across
         all digital touchpoints at Exact Cloud Solutions. For this I've created a living style guide
         which is the single point of truth for our product teams at Exact. It speeds up the time
