@@ -39,6 +39,14 @@ const PersSkills = () => (
               className="right floated"
             />
           </List.Item>
+          <List.Item>
+            Table soccer<Rating
+              defaultRating={3}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
+          </List.Item>
 
           {/* 2 stars */}
           <List.Item>
