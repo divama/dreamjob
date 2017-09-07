@@ -1,7 +1,3 @@
 /*******************************
         Global Overrides
-*******************************/ 
-.ui.header + .dj-quote p {
-        font-family: @fontName, Arial, Helvetica, sans-serif;
-        font-size:1.2em;
-} 
+*******************************/

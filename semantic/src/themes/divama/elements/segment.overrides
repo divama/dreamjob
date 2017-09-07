@@ -1,20 +1,16 @@
 /*******************************
          Theme Overrides
 *******************************/
-.dj-pageHeader {
-    padding-left: 2em;
-    
-    &.ui.inverted.attached.header {
-        background-color: @tealHeaderColor;
-        color: @white;
-    }
-}
-
 .dj-pageFooter {
-    padding: 2em; 
+    padding: 4em 2em; 
 
     &.ui.inverted.attached.segment {
         background-color: @tealHeaderColor;
+        
+    }
+
+    &.ui.inverted.segment {
+        color: @textColor;
     }
 
     a {
@@ -24,4 +20,15 @@
             color: @white;
         }
     }
+}
+
+@media (min-width: 1px ) and (max-width: @largestMobileScreen) {
+        .ui.segment,
+        .ui.attached.segment {       
+                padding: 1em 0;
+        }
+
+        .dj-pageHeader.ui.inverted.attached.header {       
+                padding: 1em;
+        }
 }
