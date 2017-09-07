@@ -1,5 +1,5 @@
 {
-  "base": "semantic\\",
+  "base": "dreamjob/semantic\\",
   "paths": {
     "source": {
       "config": "src/theme.config",
