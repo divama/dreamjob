@@ -13,4 +13,7 @@ Divama / me (Resumer)
 2. Navigate to folder /dreamjob
 3. Run `npm install --only=production`. Choose default settings for installation of semantic
 4. When ready, run `npm start`.
+5. If you want to compile your semantic ui theme also run `npm run watch-css` in a new terminal.
 5. Enjoy!
+
+
