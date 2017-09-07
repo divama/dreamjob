@@ -20,12 +20,12 @@ class Resume extends Component {
         <Segment attached>
           <Grid columns={2} stackable>
             <Grid.Row>
-              <Grid.Column width={8}>
+              <Grid.Column mobile={12} tablet={12} computer={8}>
                 <Segment>
                   <Name />
                 </Segment>
               </Grid.Column>
-              <Grid.Column width={4}>
+              <Grid.Column mobile={12} tablet={6} computer={4}>
                 <Segment>
                   <Contact />
                 </Segment>
@@ -33,7 +33,7 @@ class Resume extends Component {
             </Grid.Row>
 
             <Grid.Row>
-              <Grid.Column width={8}>
+              <Grid.Column mobile={12} tablet={12} computer={8}>
                 <Segment>
                   <Employment />
                 </Segment>
@@ -44,7 +44,7 @@ class Resume extends Component {
                   <SecActivities />
                 </Segment>
               </Grid.Column>
-              <Grid.Column width={4}>
+              <Grid.Column mobile={12} tablet={6} computer={4}>
                 <Segment>
                   <ProfSkills />
                 </Segment>
