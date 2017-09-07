@@ -14,7 +14,7 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Header as="h3" attached="top" inverted className="me-pageHeader">
+        <Header as="h3" attached="top" inverted className="dj-pageHeader">
           Resume
         </Header>
         <Segment attached>
@@ -70,10 +70,20 @@ class Resume extends Component {
                 </Segment>
               </Grid.Column>
 
-              <Grid.Column mobile={12} tablet={12} only="mobile tablet">
-                <Segment>
+              {/* <Grid.Column mobile={12} tablet={12} only="mobile tablet">
+                <Segment inverted className="dj-pageFooter">
                   <Contact />
                 </Segment>
+              </Grid.Column> */}
+            </Grid.Row>
+          </Grid>
+        </Segment>
+
+        <Segment inverted attached className="dj-pageFooter">
+          <Grid columns={2} stackable>
+            <Grid.Row only="mobile tablet">
+              <Grid.Column mobile={12} tablet={12}>
+                <Contact />
               </Grid.Column>
             </Grid.Row>
           </Grid>

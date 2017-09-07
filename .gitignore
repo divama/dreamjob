@@ -6,12 +6,6 @@
 # production
 /build
 
-# semantic
-/semantic/dist
-/src/themes/**
-!/src/themes/divama
-!/src/themes/divama/**
-
 # testing
 *.test.js
 

@@ -755,7 +755,7 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
         Global Overrides
 *******************************/
 
-.ui.header + .me-quote p {
+.ui.header + .dj-quote p {
   font-family: 'Handlee', Arial, Helvetica, sans-serif;
   font-size: 1.2em;
 }
@@ -16900,8 +16900,29 @@ ol.ui.horizontal.list li:before,
          Theme Overrides
 *******************************/
 
-.ui.inverted.attached.header.me-pageHeader {
-  background-color: #00B5AD;
+.dj-pageHeader {
+  padding-left: 2em;
+}
+
+.dj-pageHeader.ui.inverted.attached.header {
+  background-color: #0e8c8c;
+  color: #FFFFFF;
+}
+
+.dj-pageFooter {
+  padding: 2em;
+}
+
+.dj-pageFooter.ui.inverted.attached.segment {
+  background-color: #0e8c8c;
+}
+
+.dj-pageFooter a {
+  color: #6DFFFF;
+}
+
+.dj-pageFooter a:hover {
+  color: #FFFFFF;
 }
 
 /*******************************

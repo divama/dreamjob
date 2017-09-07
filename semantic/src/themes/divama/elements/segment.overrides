@@ -1,6 +1,27 @@
 /*******************************
          Theme Overrides
 *******************************/
-.ui.inverted.attached.header.me-pageHeader {
-    background-color: @teal;
+.dj-pageHeader {
+    padding-left: 2em;
+    
+    &.ui.inverted.attached.header {
+        background-color: @tealHeaderColor;
+        color: @white;
+    }
+}
+
+.dj-pageFooter {
+    padding: 2em; 
+
+    &.ui.inverted.attached.segment {
+        background-color: @tealHeaderColor;
+    }
+
+    a {
+        color: @lightTeal;
+
+        &:hover {
+            color: @white;
+        }
+    }
 }
