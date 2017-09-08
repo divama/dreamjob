@@ -10,8 +10,8 @@ node_modules
 /src/themes/**
 !src/themes/default
 !/src/themes/divama
-/dist
-/dist/**
+dist
+
 
 #JetBrains IDE
 .idea
