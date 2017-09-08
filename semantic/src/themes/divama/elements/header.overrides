@@ -1,4 +1,13 @@
 /*******************************
          Theme Overrides
 *******************************/
+.dj-pageHeader.ui.inverted.attached.header {
+        background-color: @tealHeaderColor;
+        color: @white;
+        padding: 1em 2em;
+}
 
+.ui.header + .dj-quote p {
+        font-family: @fontName, Arial, Helvetica, sans-serif;
+        font-size:1.2em;
+} 

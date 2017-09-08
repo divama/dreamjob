@@ -755,11 +755,6 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
         Global Overrides
 *******************************/
 
-.ui.header + .me-quote p {
-  font-family: 'Handlee', Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
-}
-
 /*******************************
          Site Overrides
 *******************************/
@@ -7474,6 +7469,17 @@ a.ui.inverted.grey.header:hover {
 /*******************************
          Theme Overrides
 *******************************/
+
+.dj-pageHeader.ui.inverted.attached.header {
+  background-color: #0e8c8c;
+  color: #FFFFFF;
+  padding: 1em 2em;
+}
+
+.ui.header + .dj-quote p {
+  font-family: 'Handlee', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
 
 /*******************************
          Site Overrides
@@ -16900,8 +16906,35 @@ ol.ui.horizontal.list li:before,
          Theme Overrides
 *******************************/
 
-.ui.inverted.attached.header.me-pageHeader {
-  background-color: #00B5AD;
+.dj-pageFooter {
+  padding: 4em 2em;
+}
+
+.dj-pageFooter.ui.inverted.attached.segment {
+  background-color: #0e8c8c;
+}
+
+.dj-pageFooter.ui.inverted.segment {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.dj-pageFooter a {
+  color: #6DFFFF;
+}
+
+.dj-pageFooter a:hover {
+  color: #FFFFFF;
+}
+
+@media (min-width: 1px) and (max-width: 767px) {
+  .ui.segment,
+  .ui.attached.segment {
+    padding: 1em 0;
+  }
+
+  .dj-pageHeader.ui.inverted.attached.header {
+    padding: 1em;
+  }
 }
 
 /*******************************

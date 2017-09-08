@@ -14,46 +14,76 @@ class Resume extends Component {
   render() {
     return (
       <div>
-        <Header as="h3" attached="top" inverted className="me-pageHeader">
+        <Header as="h3" attached="top" inverted className="dj-pageHeader">
           Resume
         </Header>
         <Segment attached>
           <Grid columns={2} stackable>
             <Grid.Row>
-              <Grid.Column width={8}>
+              <Grid.Column mobile={12} tablet={12} computer={8}>
                 <Segment>
                   <Name />
                 </Segment>
               </Grid.Column>
-              <Grid.Column width={4}>
+
+              <Grid.Column computer={4} only="computer">
                 <Segment>
                   <Contact />
                 </Segment>
               </Grid.Column>
-            </Grid.Row>
 
-            <Grid.Row>
-              <Grid.Column width={8}>
+              <Grid.Column mobile={12} tablet={12} computer={8}>
                 <Segment>
                   <Employment />
                 </Segment>
+              </Grid.Column>
+              <Grid.Column mobile={12} tablet={12} only="mobile tablet">
                 <Segment>
                   <Education />
                 </Segment>
+              </Grid.Column>
+              <Grid.Column mobile={12} tablet={6} computer={4}>
+                <Segment>
+                  <ProfSkills />
+                </Segment>
+              </Grid.Column>
+
+              <Grid.Column computer={8} only="computer">
+                <Segment>
+                  <Education />
+                </Segment>
+              </Grid.Column>
+              <Grid.Column mobile={12} tablet={6} computer={4}>
+                <Segment>
+                  <PersSkills />
+                </Segment>
+              </Grid.Column>
+
+              <Grid.Column mobile={12} tablet={6} computer={8}>
+                <Segment>
+                  <Training />
+                </Segment>
+              </Grid.Column>
+              <Grid.Column mobile={12} tablet={6} computer={4}>
                 <Segment>
                   <SecActivities />
                 </Segment>
               </Grid.Column>
-              <Grid.Column width={4}>
-                <Segment>
-                  <ProfSkills />
+
+              {/* <Grid.Column mobile={12} tablet={12} only="mobile tablet">
+                <Segment inverted className="dj-pageFooter">
+                  <Contact />
                 </Segment>
-                <Segment>
-                  <PersSkills />
-                </Segment>
-                <Segment>
-                  <Training />
-                </Segment>
+              </Grid.Column> */}
+            </Grid.Row>
+          </Grid>
+        </Segment>
+
+        <Segment inverted attached className="dj-pageFooter">
+          <Grid columns={2} stackable>
+            <Grid.Row only="mobile tablet">
+              <Grid.Column mobile={12} tablet={12}>
+                <Contact />
               </Grid.Column>
             </Grid.Row>
           </Grid>
