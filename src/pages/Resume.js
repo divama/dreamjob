@@ -15,15 +15,32 @@ class Resume extends Component {
     return (
       <div>
         <Header as="h3" attached="top" inverted className="dj-pageHeader">
-          Resume | <a href="#Introduction">Introduction</a> |{' '}
-          <a href="#Contact">Get in Touch</a> |{' '}
-          <a href="#Employment">Employment</a> |{' '}
-          <a href="#ProfSkills">Professional Skills</a> |{' '}
-          <a href="#Education">Education</a> |{' '}
-          <a href="#PersSkills">Personal Skills</a> |{' '}
-          <a href="#Training">Training</a> |{' '}
-          <a href="#SecActivities">Secondary Activities</a>
+          Resume
         </Header>
+
+        <Grid columns={1}>
+          <Grid.Column only="computer">
+            <a href="#Introduction">Introduction</a> |{' '}
+            <a href="#Employment">Employment</a> |{' '}
+            <a href="#Education">Education</a> |{' '}
+            <a href="#Training">Training</a> |{' '}
+            <a href="#Contact">Get in Touch</a> |{' '}
+            <a href="#ProfSkills">Professional Skills</a> |{' '}
+            <a href="#PersSkills">Personal Skills</a> |{' '}
+            <a href="#SecActivities">Secondary Activities</a>
+          </Grid.Column>
+          <Grid.Column only="mobile tablet">
+            <a href="#Introduction">Introduction</a> |{' '}
+            <a href="#Employment">Employment</a> |{' '}
+            <a href="#Education">Education</a> |{' '}
+            <a href="#ProfSkills">Professional Skills</a> |{' '}
+            <a href="#PersSkills">Personal Skills</a> |{' '}
+            <a href="#Training">Training</a> |{' '}
+            <a href="#SecActivities">Secondary Activities</a>
+            <a href="#Contact">Get in Touch</a> |{' '}
+          </Grid.Column>
+        </Grid>
+
         <Segment attached>
           <Grid columns={2} stackable>
             <Grid.Row>
@@ -85,7 +102,6 @@ class Resume extends Component {
             </Grid.Row>
           </Grid>
         </Segment>
-
         <Segment inverted attached className="dj-pageFooter">
           <Grid columns={2} stackable>
             <Grid.Row only="mobile tablet">
