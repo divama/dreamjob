@@ -1,12 +1,12 @@
 import React from 'react';
 import { Header, Accordion, Icon } from 'semantic-ui-react';
 
-const Education = () =>
+const Education = () => (
   <div>
     <Accordion>
       <Accordion.Title>
         <Header as="h3" dividing>
-          Education <Icon name="dropdown" />
+          <a name="Education">Education</a> <Icon name="dropdown" />
         </Header>
       </Accordion.Title>
       <Accordion.Content>
@@ -54,6 +54,7 @@ const Education = () =>
         </Accordion>
       </Accordion.Content>
     </Accordion>
-  </div>;
+  </div>
+);
 
 export default Education;

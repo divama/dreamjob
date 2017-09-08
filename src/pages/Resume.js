@@ -15,7 +15,14 @@ class Resume extends Component {
     return (
       <div>
         <Header as="h3" attached="top" inverted className="dj-pageHeader">
-          Resume
+          Resume | <a href="#Introduction">Introduction</a> |{' '}
+          <a href="#Contact">Get in Touch</a> |{' '}
+          <a href="#Employment">Employment</a> |{' '}
+          <a href="#ProfSkills">Professional Skills</a> |{' '}
+          <a href="#Education">Education</a> |{' '}
+          <a href="#PersSkills">Personal Skills</a> |{' '}
+          <a href="#Training">Training</a> |{' '}
+          <a href="#SecActivities">Secondary Activities</a>
         </Header>
         <Segment attached>
           <Grid columns={2} stackable>

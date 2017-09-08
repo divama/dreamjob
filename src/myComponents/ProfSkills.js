@@ -4,12 +4,17 @@ import { Rating, Header, List, Accordion, Icon } from 'semantic-ui-react';
 const ProfSkills = () => (
   <div>
     <Header as="h3" dividing>
-      Professional Skills
+      <a name="ProfSkills">Professional Skills</a>
     </Header>
     <List>
       {/* 5 stars */}
       <List.Item>
-        HTML/CSS<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+        HTML/CSS<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
         Bootstrap/Semantic UI<Rating
@@ -38,27 +43,62 @@ const ProfSkills = () => (
 
       {/* 4 stars */}
       <List.Item>
-        LESS/SASS<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
+        LESS/SASS<Rating
+          defaultRating={4}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
-        jQuery<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
+        jQuery<Rating
+          defaultRating={4}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
-        ReactJS<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
+        ReactJS<Rating
+          defaultRating={4}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
-        Markdown<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
+        Markdown<Rating
+          defaultRating={4}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
-        Font icons/svg<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
+        Font icons/svg<Rating
+          defaultRating={4}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
 
       {/* 3 stars */}
       <List.Item>
-        ES6<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+        ES6<Rating
+          defaultRating={3}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
-        AngularJS<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+        AngularJS<Rating
+          defaultRating={3}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
         NodeJS/NPM/Webpack<Rating
@@ -69,12 +109,22 @@ const ProfSkills = () => (
         />
       </List.Item>
       <List.Item>
-        Gulp<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+        Gulp<Rating
+          defaultRating={3}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
 
       {/* 1 star */}
       <List.Item>
-        Redux<Rating defaultRating={1} maxRating={5} disabled className="right floated" />
+        Redux<Rating
+          defaultRating={1}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
       </List.Item>
       <List.Item>
         Unit testing/Jest/Mocha<Rating
@@ -96,16 +146,36 @@ const ProfSkills = () => (
         <List>
           {/* 5 stars */}
           <List.Item>
-            GitHub<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            GitHub<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
-            Gitflow<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            Gitflow<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
-            GitLab<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            GitLab<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
-            Sourcetree<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            Sourcetree<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
             Visual Studio<Rating
@@ -124,13 +194,28 @@ const ProfSkills = () => (
             />
           </List.Item>
           <List.Item>
-            Diffmerge<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            Diffmerge<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
-            Zeplin<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            Zeplin<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
-            Evergage<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            Evergage<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
             Trello/Basecamp<Rating
@@ -141,7 +226,12 @@ const ProfSkills = () => (
             />
           </List.Item>
           <List.Item>
-            Agile/Scrum<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+            Agile/Scrum<Rating
+              defaultRating={5}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
             Living Styleguide<Rating
@@ -164,15 +254,30 @@ const ProfSkills = () => (
 
           {/* 3 stars */}
           <List.Item>
-            Photoshop<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+            Photoshop<Rating
+              defaultRating={3}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
           <List.Item>
-            Illustrator<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+            Illustrator<Rating
+              defaultRating={3}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
 
           {/* 1 star */}
           <List.Item>
-            Sketch<Rating defaultRating={1} maxRating={5} disabled className="right floated" />
+            Sketch<Rating
+              defaultRating={1}
+              maxRating={5}
+              disabled
+              className="right floated"
+            />
           </List.Item>
         </List>
       </Accordion.Content>
