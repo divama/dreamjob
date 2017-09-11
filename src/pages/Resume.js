@@ -13,7 +13,6 @@ import SecActivities from './../myComponents/SecActivities';
 class Resume extends Component {
   render() {
     return (
-
       <div className="dj">
         <Grid centered>
           <Grid.Row className="dj-themeColor">
@@ -24,26 +23,26 @@ class Resume extends Component {
           </Grid.Row>
 
           {/* MENU */}
-          <Grid.Column width="11" only="mobile tablet">
+          {/* <Grid.Column width="11" only="mobile tablet">
             <a href="#Introduction">Introduction</a> |{' '}
             <a href="#Employment">Employment</a> |{' '}
             <a href="#Education">Education</a> |{' '}
             <a href="#ProfSkills">Professional Skills</a> |{' '}
-            <a href="#PersSkills">Personal Skills</a> |{' '}
             <a href="#Training">Training</a> |{' '}
+            <a href="#PersSkills">Personal Skills</a> |{' '}
             <a href="#SecActivities">Secondary Activities</a> |{' '}
             <a href="#Contact">Get in Touch</a>
           </Grid.Column>
           <Grid.Column width="11" only="computer">
             <a href="#Introduction">Introduction</a> |{' '}
-            <a href="#Employment">Employment</a> |{' '}
-            <a href="#Education">Education</a> |{' '}
-            <a href="#Training">Training</a> |{' '}
             <a href="#Contact">Get in Touch</a> |{' '}
+            <a href="#Employment">Employment</a> |{' '}
             <a href="#ProfSkills">Professional Skills</a> |{' '}
+            <a href="#Education">Education</a> |{' '}
             <a href="#PersSkills">Personal Skills</a> |{' '}
+            <a href="#Training">Training</a> |{' '}
             <a href="#SecActivities">Secondary Activities</a>
-          </Grid.Column>
+          </Grid.Column> */}
 
           {/* CONTENT mobile/tablet*/}
           <Grid.Row only="mobile tablet">
@@ -104,7 +103,6 @@ class Resume extends Component {
             <Grid.Column width="5" only="mobile tablet" />
           </Grid.Row>
         </Grid>
-
       </div>
     );
   }
