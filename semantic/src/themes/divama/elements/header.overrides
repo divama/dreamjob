@@ -1,8 +1,10 @@
 /*******************************
          Theme Overrides
 *******************************/
+
 .dj .ui.dividing.header:first-child {    
     margin-top: 1em;
+
 }
 
 .ui.header + .dj-quote p {

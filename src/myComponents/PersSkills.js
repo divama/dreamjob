@@ -7,6 +7,7 @@ const PersSkills = () => (
       <a name="PersSkills">Personal Skills</a>
     </Header>
 
+
     <List>
       {/* 5 stars */}
       <List.Item>

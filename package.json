@@ -24,6 +24,7 @@
     "deploy": "gh-pages -d build",
     "start": "npm install && react-scripts start",
     "watch-css": "concurrently \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
+
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

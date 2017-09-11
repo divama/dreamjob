@@ -49,6 +49,7 @@ const SecActivities = () => (
         </List.Content>
       </List.Item>
     </List>
+
   </div>
 );
 

@@ -13,6 +13,7 @@ import SecActivities from './../myComponents/SecActivities';
 class Resume extends Component {
   render() {
     return (
+
       <div className="dj">
         <Grid centered>
           <Grid.Row className="dj-themeColor">
@@ -103,6 +104,7 @@ class Resume extends Component {
             <Grid.Column width="5" only="mobile tablet" />
           </Grid.Row>
         </Grid>
+
       </div>
     );
   }
