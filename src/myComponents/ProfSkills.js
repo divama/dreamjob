@@ -1,5 +1,5 @@
 import React from 'react';
-import { Rating, Header, List, Accordion, Icon } from 'semantic-ui-react';
+import { Rating, Header, List } from 'semantic-ui-react';
 
 const ProfSkills = () => (
   <div>
@@ -136,152 +136,145 @@ const ProfSkills = () => (
       </List.Item>
     </List>
 
-    <Accordion>
-      <Accordion.Title>
-        <Header as="h4">
-          Tools <Icon name="dropdown" />
-        </Header>
-      </Accordion.Title>
-      <Accordion.Content>
-        <List>
-          {/* 5 stars */}
-          <List.Item>
-            GitHub<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Gitflow<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            GitLab<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Sourcetree<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Visual Studio<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Visual Studio Code/Atom<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Diffmerge<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Zeplin<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Evergage<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Trello/Basecamp<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Agile/Scrum<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Living Styleguide<Rating
-              defaultRating={5}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
+    <Header as="h4">Tools</Header>
 
-          {/* 4 stars */}
-          <List.Item>
-            User Experience<Rating
-              defaultRating={4}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
+    <List>
+      {/* 5 stars */}
+      <List.Item>
+        GitHub<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Gitflow<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        GitLab<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Sourcetree<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Visual Studio<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Visual Studio Code/Atom<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Diffmerge<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Zeplin<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Evergage<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Trello/Basecamp<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Agile/Scrum<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Living Styleguide<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
 
-          {/* 3 stars */}
-          <List.Item>
-            Photoshop<Rating
-              defaultRating={3}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-          <List.Item>
-            Illustrator<Rating
-              defaultRating={3}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
+      {/* 4 stars */}
+      <List.Item>
+        User Experience<Rating
+          defaultRating={4}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
 
-          {/* 1 star */}
-          <List.Item>
-            Sketch<Rating
-              defaultRating={1}
-              maxRating={5}
-              disabled
-              className="right floated"
-            />
-          </List.Item>
-        </List>
-      </Accordion.Content>
-    </Accordion>
+      {/* 3 stars */}
+      <List.Item>
+        Photoshop<Rating
+          defaultRating={3}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Illustrator<Rating
+          defaultRating={3}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+
+      {/* 1 star */}
+      <List.Item>
+        Sketch<Rating
+          defaultRating={1}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+    </List>
   </div>
 );
 

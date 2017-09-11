@@ -7,7 +7,7 @@ const Employment = () => (
     <Header as="h3" dividing>
       <a name="Employment">Employment</a>
     </Header>
-    <Accordion exclusive={false}>
+    <Accordion>
       <Accordion.Title>
         <Icon name="folder" /> 2017 - now <br /> Software Engineer (Front-end
         Developer) @ Exact : Exact Design System Team
@@ -68,109 +68,96 @@ const Employment = () => (
         Programma's: Dreamweaver, Illustrator, Photoshop, Flash, After Effects,
         Sorenson Squeeze, Soundbooth, WordPress, Mailca, Mailcamp.
       </Accordion.Content>
-    </Accordion>
 
-    <Accordion>
       <Accordion.Title>
-        More <Icon name="dropdown" />
+        <Icon name="folder" /> 2009 - 2015 <br />Voluntary Designer and
+        Front-end engineer @ PKN Rotterdam Alexanderpolder : Commissie
+        Communicatie en Publiciteit <Icon name="dropdown" />
       </Accordion.Title>
       <Accordion.Content>
-        <Accordion exclusive={false}>
-          <Accordion.Title>
-            <Icon name="folder" /> 2009 - 2015 <br />Voluntary Designer and
-            Front-end engineer @ PKN Rotterdam Alexanderpolder : Commissie
-            Communicatie en Publiciteit <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Grafisch ontwerp en ontwikkeling van de e-nieuwsbrief, afgestemd op
-            verschillende e-mail programma’s en browsers. Redactiewerk zoals
-            verzamelen, plaatsen en stylen van de content en afbeeldingen.
-            Testen en distributie.
-          </Accordion.Content>
+        Grafisch ontwerp en ontwikkeling van de e-nieuwsbrief, afgestemd op
+        verschillende e-mail programma’s en browsers. Redactiewerk zoals
+        verzamelen, plaatsen en stylen van de content en afbeeldingen. Testen en
+        distributie.
+      </Accordion.Content>
 
-          <Accordion.Title>
-            <Icon name="folder" /> 2007 - 2010 <br />Front-end engineer @ TamTam
-            : MOSS/WCM Team <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Het informeren van (al dan niet externe) grafisch ontwerpers en
-            developers over de branding mogelijkheden en beperkingen van
-            SharePoint (zowel portal als website) bij het maken van een grafisch
-            ontwerp of bij de ontwikkeling van webparts, middels lezingen,
-            blogposts, publicaties (SharePoint Magazine) en persoonlijk advies.
-            Voorbereiden van het grafisch ontwerp, ontwikkeling van masterpages,
-            pagelayouts en stylesheets en implementatie van het grafisch ontwerp
-            op SharePoint portalen, met behulp van Photoshop, Microsoft
-            SharePoint designer, Developers tools, FireBug. Voorbereiden van het
-            grafisch ontwerp, ontwikkeling van masterpages, pagelayouts en
-            stylesheets volgens de HTML standaarden, met behulp van de
-            starterskit, implementatie van het grafisch ontwerp op SharePoint
-            websites en toepassen van JQuery elementen (tabbladen, slider,
-            carousel, font-size menu) en PNG-filters voor transparantie
-            (ActiveX), met behulp van Photoshop, Microsoft SharePoint designer,
-            Developers tools, FireBug. Kwaliteitsbeheer en nazorg verlenen door
-            bijvoorbeeld het oplossen van style issues. Versiebeheer met
-            Sourcegear Vault.
-          </Accordion.Content>
+      <Accordion.Title>
+        <Icon name="folder" /> 2007 - 2010 <br />Front-end engineer @ TamTam :
+        MOSS/WCM Team <Icon name="dropdown" />
+      </Accordion.Title>
+      <Accordion.Content>
+        Het informeren van (al dan niet externe) grafisch ontwerpers en
+        developers over de branding mogelijkheden en beperkingen van SharePoint
+        (zowel portal als website) bij het maken van een grafisch ontwerp of bij
+        de ontwikkeling van webparts, middels lezingen, blogposts, publicaties
+        (SharePoint Magazine) en persoonlijk advies. Voorbereiden van het
+        grafisch ontwerp, ontwikkeling van masterpages, pagelayouts en
+        stylesheets en implementatie van het grafisch ontwerp op SharePoint
+        portalen, met behulp van Photoshop, Microsoft SharePoint designer,
+        Developers tools, FireBug. Voorbereiden van het grafisch ontwerp,
+        ontwikkeling van masterpages, pagelayouts en stylesheets volgens de HTML
+        standaarden, met behulp van de starterskit, implementatie van het
+        grafisch ontwerp op SharePoint websites en toepassen van JQuery
+        elementen (tabbladen, slider, carousel, font-size menu) en PNG-filters
+        voor transparantie (ActiveX), met behulp van Photoshop, Microsoft
+        SharePoint designer, Developers tools, FireBug. Kwaliteitsbeheer en
+        nazorg verlenen door bijvoorbeeld het oplossen van style issues.
+        Versiebeheer met Sourcegear Vault.
+      </Accordion.Content>
 
-          <Accordion.Title>
-            <Icon name="folder" /> 2006 - 2007 <br />E-commerce / Interaction
-            designer @ Consolit <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Ontwerpen, ontwikkelen en verspreiden van e-nieuwsbrieven aan de
-            hand van templates. Aan de hand van gesprekken met de klant meerdere
-            grafische (re)designs maken, het grafische ontwerp vertalen naar
-            html en css-stylen (Dreamweaver) en vervolgens met behulp van Visual
-            Web Developer het prototype van de webshop (aspx) dat door de
-            programmeur gemaakt is, aanpassen aan het design en de gewenste
-            instellingen van de klant. Beheren van Google Adword campagnes en
-            inspelen op de clickrate en dergelijke. Begeleiden van
-            HBO-stagiaire.
-          </Accordion.Content>
+      <Accordion.Title>
+        <Icon name="folder" /> 2006 - 2007 <br />E-commerce / Interaction
+        designer @ Consolit <Icon name="dropdown" />
+      </Accordion.Title>
+      <Accordion.Content>
+        Ontwerpen, ontwikkelen en verspreiden van e-nieuwsbrieven aan de hand
+        van templates. Aan de hand van gesprekken met de klant meerdere
+        grafische (re)designs maken, het grafische ontwerp vertalen naar html en
+        css-stylen (Dreamweaver) en vervolgens met behulp van Visual Web
+        Developer het prototype van de webshop (aspx) dat door de programmeur
+        gemaakt is, aanpassen aan het design en de gewenste instellingen van de
+        klant. Beheren van Google Adword campagnes en inspelen op de clickrate
+        en dergelijke. Begeleiden van HBO-stagiaire.
+      </Accordion.Content>
 
-          <Accordion.Title>
-            <Icon name="folder" /> 2006 <br />Internship @ ABF Research
-            <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Ontwerpen, ontwikkelen, implementeren en testen van product-verkoop
-            website en product-support website aan de hand van
-            usabilityrichtlijnen en persona´s. Kernbegrippen:
-            Gebruiksvriendelijkheid, look-and-feel, learnability en
-            accessibility.
-          </Accordion.Content>
+      <Accordion.Title>
+        <Icon name="folder" /> 2006 <br />Internship @ ABF Research
+        <Icon name="dropdown" />
+      </Accordion.Title>
+      <Accordion.Content>
+        Ontwerpen, ontwikkelen, implementeren en testen van product-verkoop
+        website en product-support website aan de hand van usabilityrichtlijnen
+        en persona´s. Kernbegrippen: Gebruiksvriendelijkheid, look-and-feel,
+        learnability en accessibility.
+      </Accordion.Content>
 
-          <Accordion.Title>
-            <Icon name="folder" /> 2004 - 2006 <br />Webdesigner, webdeveloper @
-            Arxit <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Vormgeven en ontwikkelen van websites, autostickers en animaties die
-            informatie bieden over de diensten en producten van verschillende
-            bedrijven. Gewerkt met producten zoals Adobe Photoshop, Macromedia
-            Dreamweaver, Macromedia Flash.
-          </Accordion.Content>
+      <Accordion.Title>
+        <Icon name="folder" /> 2004 - 2006 <br />Webdesigner, webdeveloper @
+        Arxit <Icon name="dropdown" />
+      </Accordion.Title>
+      <Accordion.Content>
+        Vormgeven en ontwikkelen van websites, autostickers en animaties die
+        informatie bieden over de diensten en producten van verschillende
+        bedrijven. Gewerkt met producten zoals Adobe Photoshop, Macromedia
+        Dreamweaver, Macromedia Flash.
+      </Accordion.Content>
 
-          <Accordion.Title>
-            <Icon name="folder" /> 2002 <br />Internship @ Tutticolori
-            <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Ontwerpen, ontwikkelen en animeren van verschillende
-            reclameuitingen. Implementeren van plug-and-play CMS-systemen,
-            chatrooms, gastenboek en E-cards.
-          </Accordion.Content>
+      <Accordion.Title>
+        <Icon name="folder" /> 2002 <br />Internship @ Tutticolori
+        <Icon name="dropdown" />
+      </Accordion.Title>
+      <Accordion.Content>
+        Ontwerpen, ontwikkelen en animeren van verschillende reclameuitingen.
+        Implementeren van plug-and-play CMS-systemen, chatrooms, gastenboek en
+        E-cards.
+      </Accordion.Content>
 
-          <Accordion.Title>
-            <Icon name="folder" /> 2002 <br /> Internship @ JR Creatie + Media
-            <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Ontwerpen, ontwikkelen en animeren van websites uit lopende
-            projecten.
-          </Accordion.Content>
-        </Accordion>
+      <Accordion.Title>
+        <Icon name="folder" /> 2002 <br /> Internship @ JR Creatie + Media
+        <Icon name="dropdown" />
+      </Accordion.Title>
+      <Accordion.Content>
+        Ontwerpen, ontwikkelen en animeren van websites uit lopende projecten.
       </Accordion.Content>
     </Accordion>
   </div>
