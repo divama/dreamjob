@@ -1,34 +1,3 @@
 /*******************************
          Theme Overrides
 *******************************/
-.dj-pageFooter {
-    padding: 4em 2em; 
-
-    &.ui.inverted.attached.segment {
-        background-color: @tealHeaderColor;
-        
-    }
-
-    &.ui.inverted.segment {
-        color: @textColor;
-    }
-
-    a {
-        color: @lightTeal;
-
-        &:hover {
-            color: @white;
-        }
-    }
-}
-
-@media (min-width: 1px ) and (max-width: @largestMobileScreen) {
-        .ui.segment,
-        .ui.attached.segment {       
-                padding: 1em 0;
-        }
-
-        .dj-pageHeader.ui.inverted.attached.header {       
-                padding: 1em;
-        }
-}

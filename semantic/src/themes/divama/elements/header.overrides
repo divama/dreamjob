@@ -1,10 +1,8 @@
 /*******************************
          Theme Overrides
 *******************************/
-.dj-pageHeader.ui.inverted.attached.header {
-        background-color: @tealHeaderColor;
-        color: @white;
-        padding: 1em 2em;
+.dj .ui.dividing.header:first-child {    
+    margin-top: 1em;
 }
 
 .ui.header + .dj-quote p {
