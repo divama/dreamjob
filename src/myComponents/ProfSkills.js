@@ -4,7 +4,9 @@ import { Rating, Header, List } from 'semantic-ui-react';
 const ProfSkills = () => (
   <div>
     <Header as="h3" dividing>
-      <a name="ProfSkills">Professional Skills</a>
+      <a name="ProfSkills" className="dj-anchor">
+        Professional Skills
+      </a>Professional Skills
     </Header>
     <List>
       {/* 5 stars */}

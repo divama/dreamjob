@@ -4,7 +4,9 @@ import { Rating, Header, List } from 'semantic-ui-react';
 const PersSkills = () => (
   <div>
     <Header as="h3" dividing>
-      <a name="">Personal Skills</a>
+      <a name="PersSkills" className="dj-anchor">
+        Personal Skills
+      </a>Personal Skills
     </Header>
 
     <List>

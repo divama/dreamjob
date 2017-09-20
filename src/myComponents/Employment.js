@@ -5,7 +5,9 @@ import { Header, Accordion, Icon } from 'semantic-ui-react';
 const Employment = () => (
   <div>
     <Header as="h3" dividing>
-      <a name="Employment">Employment</a>
+      <a name="Employment" className="dj-anchor">
+        Employment
+      </a>Employment
     </Header>
     <Accordion>
       <Accordion.Title>
@@ -30,7 +32,6 @@ const Employment = () => (
         video's about how to use and contribute to the living style guide using
         Github. At the moment I'm doing some trainings about React Redux, Jest
         and Mocha.
-
       </Accordion.Content>
       <Accordion.Title>
         <Icon name="folder" /> 2013 - 2017 <br />Software Engineer (Front-end

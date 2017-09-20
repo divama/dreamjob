@@ -18,13 +18,13 @@ class Resume extends Component {
         <Grid centered>
           <Grid.Row className="dj-themeColor">
             {/* HEADER */}
-            <Grid.Column width="11">
+            <Grid.Column width={11}>
               <h3>Resume</h3>
             </Grid.Column>
           </Grid.Row>
 
           {/* MENU */}
-          {/* <Grid.Column width="11" only="mobile tablet">
+          <Grid.Column width={11} only="mobile tablet">
             <a href="#Introduction">Introduction</a> |{' '}
             <a href="#Employment">Employment</a> |{' '}
             <a href="#Education">Education</a> |{' '}
@@ -32,10 +32,10 @@ class Resume extends Component {
             <a href="#Training">Training</a> |{' '}
             <a href="#PersSkills">Personal Skills</a> |{' '}
             <a href="#SecActivities">Secondary Activities</a> |{' '}
-            <a href="#Contact">Get in Touch</a>
+            <a href="#Contact">Get in Touch</a> |{' '}
             <a href="#PersType">Personality type</a>
           </Grid.Column>
-          <Grid.Column width="11" only="computer">
+          <Grid.Column width={11} only="computer">
             <a href="#Introduction">Introduction</a> |{' '}
             <a href="#Contact">Get in Touch</a> |{' '}
             <a href="#Employment">Employment</a> |{' '}
@@ -43,9 +43,9 @@ class Resume extends Component {
             <a href="#Education">Education</a> |{' '}
             <a href="#PersSkills">Personal Skills</a> |{' '}
             <a href="#Training">Training</a> |{' '}
-            <a href="#SecActivities">Secondary Activities</a>
+            <a href="#SecActivities">Secondary Activities</a> |{' '}
             <a href="#PersType">Personality type</a>
-          </Grid.Column> */}
+          </Grid.Column>
 
           {/* CONTENT mobile/tablet*/}
           <Grid.Row only="mobile tablet">

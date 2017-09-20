@@ -6,7 +6,9 @@ class PersType extends Component {
     return (
       <div>
         <Header as="h3" dividing>
-          <a name="PersType">Personality type </a>
+          <a name="PersType" className="dj-anchor">
+            Personality type
+          </a>Personality type
           <a
             rel="noopener noreferrer"
             target="_blank"

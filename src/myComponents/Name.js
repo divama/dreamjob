@@ -13,7 +13,9 @@ const Name = () => (
         src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAduAAAAJGE5NTY0YjhkLTUwMzItNGY4YS04ZTZiLTljYWQ5MmM3ODdhNQ.jpg"
       />
       <Header.Content>
-        <a name="Introduction">Diantha van Marion</a>
+        <a name="Introduction" className="dj-anchor">
+          Introduction
+        </a>Diantha van Marion
         <Header.Subheader>Front-end developer React</Header.Subheader>
       </Header.Content>
     </Header>

@@ -768,6 +768,10 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
   color: #FFFFFF;
 }
 
+.dj-anchor {
+  display: none;
+}
+
 /*******************************
          Site Overrides
 *******************************/

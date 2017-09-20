@@ -4,7 +4,9 @@ import { List, Header } from 'semantic-ui-react';
 const Training = () => (
   <div>
     <Header as="h3" dividing>
-      <a name="Training">Training</a>
+      <a name="Training" className="dj-anchor">
+        Training
+      </a>Training
     </Header>
 
     <List divided relaxed>

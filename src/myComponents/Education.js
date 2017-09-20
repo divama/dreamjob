@@ -4,7 +4,9 @@ import { Header, Accordion, Icon } from 'semantic-ui-react';
 const Education = () => (
   <div>
     <Header as="h3" dividing>
-      <a name="Education">Education</a>
+      <a name="Education" className="dj-anchor">
+        Education
+      </a>Education
     </Header>
 
     <Accordion exclusive={false}>
