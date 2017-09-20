@@ -9,6 +9,7 @@ import ProfSkills from './../myComponents/ProfSkills';
 import PersSkills from './../myComponents/PersSkills';
 import Training from './../myComponents/Training';
 import SecActivities from './../myComponents/SecActivities';
+import PersType from './../myComponents/PersType';
 
 class Resume extends Component {
   render() {
@@ -32,6 +33,7 @@ class Resume extends Component {
             <a href="#PersSkills">Personal Skills</a> |{' '}
             <a href="#SecActivities">Secondary Activities</a> |{' '}
             <a href="#Contact">Get in Touch</a>
+            <a href="#PersType">Personality type</a>
           </Grid.Column>
           <Grid.Column width="11" only="computer">
             <a href="#Introduction">Introduction</a> |{' '}
@@ -42,6 +44,7 @@ class Resume extends Component {
             <a href="#PersSkills">Personal Skills</a> |{' '}
             <a href="#Training">Training</a> |{' '}
             <a href="#SecActivities">Secondary Activities</a>
+            <a href="#PersType">Personality type</a>
           </Grid.Column> */}
 
           {/* CONTENT mobile/tablet*/}
@@ -62,8 +65,11 @@ class Resume extends Component {
             <Grid.Column mobile={11} tablet={5}>
               <Training />
             </Grid.Column>
-            <Grid.Column mobile={11} tablet={11}>
+            <Grid.Column mobile={11} tablet={6}>
               <SecActivities />
+            </Grid.Column>
+            <Grid.Column mobile={11} tablet={5}>
+              <PersType />
             </Grid.Column>
           </Grid.Row>
 
@@ -92,6 +98,7 @@ class Resume extends Component {
             </Grid.Column>
             <Grid.Column computer={4}>
               <SecActivities />
+              <PersType />
             </Grid.Column>
           </Grid.Row>
 
