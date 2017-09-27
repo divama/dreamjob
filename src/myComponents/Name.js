@@ -6,13 +6,11 @@ import personalNote from './../pages/personalNote.md';
 
 const Name = () => (
   <div>
-    <Image
-      size="tiny"
-      floated="left"
-      shape="circular"
-      src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAzoAAAAJGFmMDNjYjZmLWQ0YTEtNDVkYi04ZTg5LWU3MTJhNTEyYTAxNQ.jpg"
-    />
     <Header as="h2">
+      <Image
+        shape="circular"
+        src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAzoAAAAJGFmMDNjYjZmLWQ0YTEtNDVkYi04ZTg5LWU3MTJhNTEyYTAxNQ.jpg"
+      />
       <Header.Content>
         <a name="Introduction">Diantha van Marion</a>
         <Header.Subheader>Front-end developer React</Header.Subheader>
