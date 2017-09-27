@@ -22,9 +22,9 @@
     "watch-and-copy-dist-to-src": "gulp watch --gulpfile gulpfile.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "start": "react-scripts start",
-    "start-and-watch-css":
-      "concurrently \"react-scripts start\" \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
+    "start": "npm install && react-scripts start",
+    "watch-css": "concurrently \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
+
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

@@ -755,9 +755,17 @@ body .ui.inverted::-webkit-scrollbar-thumb:hover {
         Global Overrides
 *******************************/
 
-.ui.header + .me-quote p {
-  font-family: 'Handlee', Arial, Helvetica, sans-serif;
-  font-size: 1.2em;
+.dj-themeColor {
+  background-color: #0e8c8c;
+  color: #FFFFFF;
+}
+
+.dj-themeColor a {
+  color: #6DFFFF;
+}
+
+.dj-themeColor a:hover {
+  color: #FFFFFF;
 }
 
 /*******************************
@@ -7474,6 +7482,23 @@ a.ui.inverted.grey.header:hover {
 /*******************************
          Theme Overrides
 *******************************/
+
+.dj .ui.dividing.header:first-child {
+  margin-top: 1em;
+}
+
+.ui.header + .dj-quote p {
+  font-family: 'Handlee', Arial, Helvetica, sans-serif;
+  font-size: 1.2em;
+}
+
+.dj-themeColor h1:first-child,
+.dj-themeColor h2:first-child,
+.dj-themeColor h3:first-child,
+.dj-themeColor h4:first-child,
+.dj-themeColor h5:first-child {
+  margin-top: 0.78em;
+}
 
 /*******************************
          Site Overrides
@@ -16899,10 +16924,6 @@ ol.ui.horizontal.list li:before,
 /*******************************
          Theme Overrides
 *******************************/
-
-.ui.inverted.attached.header.me-pageHeader {
-  background-color: #00B5AD;
-}
 
 /*******************************
          Site Overrides

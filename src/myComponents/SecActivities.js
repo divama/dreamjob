@@ -1,56 +1,56 @@
 import React from 'react';
-import { Header, Accordion, Icon } from 'semantic-ui-react';
+import { Header, List } from 'semantic-ui-react';
 
-const SecActivities = () =>
+const SecActivities = () => (
   <div>
-    <Accordion>
-      <Accordion.Title>
-        <Header as="h3" dividing>
-          Secondary Activities <Icon name="dropdown" />
-        </Header>
-      </Accordion.Title>
-      <Accordion.Content>
+    <Header as="h3" dividing>
+      <a name="SecActivities">Secondary Activities</a>
+    </Header>
 
-        <Accordion exclusive={false}>
-          <Accordion.Title>
-            <Icon name="book" /> 2010 <br />MOSS/WCM SP07 website UMC st.Radboud
-            uitgeroepen tot beste ziekenhuiswebsite van nederland! @ Tamtam
-            <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            (www.umcn.nl) volgens www.zorgwebmonitor.nl
-          </Accordion.Content>
+    <List>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          2010 <br />MOSS/WCM SP07 website UMC st.Radboud uitgeroepen tot beste
+          ziekenhuiswebsite van nederland! @ Tamtam
+          <br />
+          (www.umcn.nl) volgens www.zorgwebmonitor.nl
+        </List.Content>
+      </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          2009 <br />SharePointMagazine publicaties @ Tamtam
+          <br />
+          Verschillende publicaties geschreven over SharePoint’s 2007 Branding
+          Limitations. www.sharepointmagazine.net
+        </List.Content>
+      </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          2009 <br />Blog over front-end development voor SharePoint 2007 @
+          Tamtam <br />
+          www.tamtam.nl
+        </List.Content>
+      </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          2006 <br />Hands-on training for Flash @ Haagse Hogeschool/TH Rijswijk
+        </List.Content>
+      </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          2004 - 2005 <br />Kampleider introductiekamp informatica @ Haag Uit.
+          <br />
+          www.haaguit.com
+        </List.Content>
+      </List.Item>
+    </List>
 
-          <Accordion.Title>
-            <Icon name="book" /> 2009 <br />SharePointMagazine publicaties @
-            Tamtam
-            <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>
-            Verschillende publicaties geschreven over SharePoint’s 2007 Branding
-            Limitations. www.sharepointmagazine.net
-          </Accordion.Content>
-
-          <Accordion.Title>
-            <Icon name="book" /> 2009 <br />Blog over front-end development voor
-            SharePoint 2007 @ Tamtam <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>www.tamtam.nl</Accordion.Content>
-
-          <p>
-            <br />
-            <Icon name="book" />2006 <br />Hands-on training for Flash @ Haagse
-            Hogeschool/TH Rijswijk
-          </p>
-
-          <Accordion.Title>
-            <Icon name="book" /> 2004 - 2005 <br />Kampleider introductiekamp
-            informatica @ Haag Uit. <Icon name="dropdown" />
-          </Accordion.Title>
-          <Accordion.Content>www.haaguit.com</Accordion.Content>
-        </Accordion>
-      </Accordion.Content>
-    </Accordion>
-  </div>;
+  </div>
+);
 
 export default SecActivities;

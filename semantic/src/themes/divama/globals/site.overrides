@@ -1,7 +1,15 @@
 /*******************************
         Global Overrides
-*******************************/ 
-.ui.header + .me-quote p {
-        font-family: @fontName, Arial, Helvetica, sans-serif;
-        font-size:1.2em;
-} 
+*******************************/
+.dj-themeColor {
+        background-color: @tealHeaderColor;
+        color: @white;
+
+        a {
+        color: @lightTeal;
+
+        &:hover {
+            color: @white;
+        }
+    }
+}

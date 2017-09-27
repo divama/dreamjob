@@ -1,0 +1,17 @@
+# dependecies
+node_modules
+
+# misc
+.DS_Store
+.env
+*.log
+
+# semantic
+/src/themes/**
+!src/themes/default
+!/src/themes/divama
+dist
+
+
+#JetBrains IDE
+.idea
