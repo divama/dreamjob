@@ -20,7 +20,10 @@ class Resume extends Component {
     const { visible } = this.state;
     return (
       <div className="dj">
-        <Button onClick={this.toggleVisibility} icon="content" className="dj-hamburger" />
+        <div className="dj-hamburger">
+          <Button onClick={this.toggleVisibility} icon="content" className="dj-hamburger" />
+        </div>
+
         <Sidebar.Pushable>
           <Sidebar
             as={Menu}
@@ -72,30 +75,6 @@ class Resume extends Component {
 
           <Sidebar.Pusher>
             <Grid centered>
-              {/* MENU */}
-              {/* <Grid.Column width="11" only="mobile tablet">
-                <a href="#Introduction">Introduction</a> |
-                <a href="#Employment"> Employment</a> |
-                <a href="#Education"> Education</a> |
-                <a href="#ProfSkills"> Professional Skills</a> |
-                <a href="#Training"> Training</a> |
-                <a href="#PersSkills"> Personal Skills</a> |
-                <a href="#SecActivities"> Secondary Activities</a> |
-                <a href="#PersType"> Personality type</a> |
-                <a href="#GetInTouch"> Get in Touch</a>
-              </Grid.Column>
-              <Grid.Column width="11" only="computer">
-                <a href="#Introduction"> Introduction</a> |
-                <a href="#GetInTouch"> Get in Touch</a> |
-                <a href="#Employment"> Employment</a> |
-                <a href="#ProfSkills"> Professional Skills</a> |
-                <a href="#Education"> Education</a> |
-                <a href="#PersSkills"> Personal Skills</a> |
-                <a href="#Training"> Training</a> |
-                <a href="#SecActivities"> Secondary Activities</a> |
-                <a href="#PersType"> Personality type</a>
-              </Grid.Column> */}
-
               {/* CONTENT mobile/tablet*/}
               <Grid.Row only="mobile tablet">
                 <Grid.Column mobile={11} tablet={11}>
