@@ -9,12 +9,7 @@ const ProfSkills = () => (
     <List>
       {/* 5 stars */}
       <List.Item>
-        HTML/CSS<Rating
-          defaultRating={5}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        HTML/CSS<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
         Bootstrap/Semantic UI<Rating
@@ -43,6 +38,7 @@ const ProfSkills = () => (
 
       {/* 4 stars */}
       <List.Item>
+
         LESS/SASS<Rating
           defaultRating={4}
           maxRating={5}
@@ -57,16 +53,13 @@ const ProfSkills = () => (
           disabled
           className="right floated"
         />
+
       </List.Item>
       <List.Item>
-        ReactJS<Rating
-          defaultRating={4}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        jQuery<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
+
         Markdown<Rating
           defaultRating={4}
           maxRating={5}
@@ -81,11 +74,14 @@ const ProfSkills = () => (
           disabled
           className="right floated"
         />
+
       </List.Item>
 
       {/* 3 stars */}
       <List.Item>
+
         ES6<Rating
+
           defaultRating={3}
           maxRating={5}
           disabled
@@ -93,14 +89,19 @@ const ProfSkills = () => (
         />
       </List.Item>
       <List.Item>
+
         AngularJS<Rating
           defaultRating={3}
           maxRating={5}
           disabled
           className="right floated"
         />
+
       </List.Item>
+
+      {/* 1 star */}
       <List.Item>
+
         NodeJS/NPM/Webpack<Rating
           defaultRating={3}
           maxRating={5}
@@ -111,6 +112,7 @@ const ProfSkills = () => (
       <List.Item>
         Gulp<Rating
           defaultRating={3}
+
           maxRating={5}
           disabled
           className="right floated"
@@ -126,13 +128,16 @@ const ProfSkills = () => (
           className="right floated"
         />
       </List.Item>
+      {/* 5 stars */}
       <List.Item>
+
         Unit testing/Jest/Mocha<Rating
           defaultRating={1}
           maxRating={5}
           disabled
           className="right floated"
         />
+
       </List.Item>
     </List>
 
@@ -141,6 +146,7 @@ const ProfSkills = () => (
     <List>
       {/* 5 stars */}
       <List.Item>
+
         GitHub<Rating
           defaultRating={5}
           maxRating={5}
@@ -155,6 +161,7 @@ const ProfSkills = () => (
           disabled
           className="right floated"
         />
+
       </List.Item>
       <List.Item>
         GitLab<Rating
@@ -165,6 +172,7 @@ const ProfSkills = () => (
         />
       </List.Item>
       <List.Item>
+
         Sourcetree<Rating
           defaultRating={5}
           maxRating={5}
@@ -195,32 +203,28 @@ const ProfSkills = () => (
           disabled
           className="right floated"
         />
+
       </List.Item>
       <List.Item>
-        Zeplin<Rating
+        Agile/Scrum<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+      </List.Item>
+      <List.Item>
+        Living Styleguide<Rating
           defaultRating={5}
           maxRating={5}
           disabled
           className="right floated"
         />
       </List.Item>
+
+      {/* 4 stars */}
       <List.Item>
-        Evergage<Rating
-          defaultRating={5}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        User Experience<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
+
+      {/* 3 stars */}
       <List.Item>
-        Trello/Basecamp<Rating
-          defaultRating={5}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
-      </List.Item>
-      <List.Item>
+
         Agile/Scrum<Rating
           defaultRating={5}
           maxRating={5}
@@ -273,6 +277,7 @@ const ProfSkills = () => (
           disabled
           className="right floated"
         />
+
       </List.Item>
     </List>
   </div>

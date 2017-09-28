@@ -3,6 +3,7 @@ import { Rating, Header, List } from 'semantic-ui-react';
 
 const PersSkills = () => (
   <div>
+
     <Header as="h3" dividing>
       <a name="PersSkills">Personal Skills</a>
     </Header>
@@ -51,6 +52,7 @@ const PersSkills = () => (
         English<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
       </List.Item>
     </List>
+
   </div>
 );
 

@@ -3,6 +3,7 @@ import { List, Header } from 'semantic-ui-react';
 
 const Training = () => (
   <div>
+
     <Header as="h3" dividing>
       <a name="Training">Training</a>
     </Header>
@@ -208,6 +209,7 @@ const Training = () => (
         </List.Content>
       </List.Item>
     </List>
+
   </div>
 );
 
