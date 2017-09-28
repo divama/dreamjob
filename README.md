@@ -14,13 +14,12 @@ Divama / dreamjob (Resumer)
     ```
     npm install -g gulp
     ```
-3. Run these commands to install the project-specific dependencies and start your development server.:
+3. Run these commands to install the project-specific dependencies and afterwards automatically start your development server.:
     ```
     npm start
     ```
-4. Done! You can now start your development server.
-5. If you want to edit any theming, also start the theme-watcher:
+4. Done! If you want to edit any theming, also start the theme-watcher:
     ```
     npm run watch-css
     ```
-6. Done! Enjoy!
+5. Happy coding! Enjoy!
