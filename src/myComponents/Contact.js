@@ -4,7 +4,7 @@ import { List, Header } from 'semantic-ui-react';
 const Contact = () => (
   <div>
     <Header as="h3" dividing>
-      <a name="Contact">Get in touch</a>
+      <a name="GetInTouch">Get in touch</a>
     </Header>
 
     <List divided relaxed>
@@ -13,11 +13,7 @@ const Contact = () => (
         <List.Content>
           <List.Header>Linkedin</List.Header>
           <List.Description>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.linkedin.com/in/diantha"
-            >
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/diantha">
               https://www.linkedin.com/in/diantha
             </a>
           </List.Description>
@@ -28,11 +24,7 @@ const Contact = () => (
         <List.Content>
           <List.Header>Website</List.Header>
           <List.Description>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://divama.github.io/dreamjob"
-            >
+            <a target="_blank" rel="noopener noreferrer" href="https://divama.github.io/dreamjob">
               https://divama.github.io/dreamjob
             </a>
           </List.Description>
@@ -43,11 +35,7 @@ const Contact = () => (
         <List.Content>
           <List.Header>Github</List.Header>
           <List.Description>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://github.com/divama"
-            >
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/divama">
               https://github.com/divama
             </a>
           </List.Description>
