@@ -1,5 +1,5 @@
 # Divama
-Divama / me (Resumer)
+Divama / dreamjob (Resumer)
 
 **Website:** 
 [https://divama.github.io/dreamjob/](https://divama.github.io/dreamjob/)
@@ -7,10 +7,19 @@ Divama / me (Resumer)
 **Github repo:**
 [https://github.com/divama/dreamjob/](https://github.com/divama/dreamjob/)
 
-## Run Locally:
-
-1. Clone repo from [https://github.com/divama/dreamjob.git](https://github.com/divama/dreamjob.git)
-2. Navigate to folder /dreamjob
-3. Run `npm install --only=production`. Choose default settings for installation of semantic
-4. When ready, run `npm start`.
-5. Enjoy!
+## How to: Setup development environment
+1. Make sure the following is installed on your machine:
+    - [Node.js](http://nodejs.org/)
+2. Run this command to install the global dependencies:
+    ```
+    npm install -g gulp
+    ```
+3. Run these commands to install the project-specific dependencies and afterwards automatically start your development server.:
+    ```
+    npm start
+    ```
+4. Done! If you want to edit any theming, also start the theme-watcher:
+    ```
+    npm run watch-css
+    ```
+5. Happy coding! Enjoy!

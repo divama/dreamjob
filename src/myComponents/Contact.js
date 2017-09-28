@@ -4,7 +4,7 @@ import { List, Header } from 'semantic-ui-react';
 const Contact = () => (
   <div>
     <Header as="h3" dividing>
-      Get in touch
+      <a name="GetInTouch">Get in touch</a>
     </Header>
 
     <List divided relaxed>

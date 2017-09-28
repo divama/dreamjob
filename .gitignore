@@ -6,12 +6,8 @@
 # production
 /build
 
-# semantic
-/semantic/dist/**/*
-/semantic/dist/**/*
-/src/themes/**
-!/src/themes/divama
-!/src/themes/divama/**
+# testing
+*.test.js
 
 # misc
 .DS_Store
@@ -19,6 +15,8 @@
 .env.development.local
 .env.test.local
 .env.production.local
+/_example files
+/.sonarlint
 
 npm-debug.log*
 yarn-debug.log*
