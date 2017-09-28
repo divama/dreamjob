@@ -1,12 +1,16 @@
 /*******************************
         Global Overrides
 *******************************/
-.dj-themeColor {
-        background-color: @tealHeaderColor;
-        color: @white;
+.dj {
+    position:relative;
+}
 
-        a {
-        color: @lightTeal;
+.dj-themeColor {
+    background-color: @tealHeaderColor;
+    color: @white;    
+
+    a {
+    color: @lightTeal;
 
         &:hover {
             color: @white;

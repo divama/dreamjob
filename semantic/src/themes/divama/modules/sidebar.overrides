@@ -1,3 +1,9 @@
 /*******************************
          Theme Overrides
 *******************************/
+.dj-hamburger.button { 
+    position: absolute;
+    top: 0.5rem;
+    right: 1rem;
+    z-index: 1;
+}
