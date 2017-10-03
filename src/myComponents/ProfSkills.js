@@ -41,9 +41,11 @@ const ProfSkills = () => (
         LESS/SASS<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
+        Gulp<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+      </List.Item>
+      <List.Item>
         jQuery<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
-
       <List.Item>
         Markdown<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
@@ -56,10 +58,11 @@ const ProfSkills = () => (
         ES6<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
+        ReactJS<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
+      </List.Item>
+      <List.Item>
         AngularJS<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
-
-      {/* 1 star */}
       <List.Item>
         NodeJS/NPM/Webpack<Rating
           defaultRating={3}
@@ -72,14 +75,13 @@ const ProfSkills = () => (
         Gulp<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
 
-      {/* 1 star */}
+      {/* 2 star */}
       <List.Item>
-        Redux<Rating defaultRating={1} maxRating={5} disabled className="right floated" />
+        Redux<Rating defaultRating={2} maxRating={5} disabled className="right floated" />
       </List.Item>
-      {/* 5 stars */}
       <List.Item>
         Unit testing/Jest/Mocha<Rating
-          defaultRating={1}
+          defaultRating={2}
           maxRating={5}
           disabled
           className="right floated"
@@ -117,24 +119,6 @@ const ProfSkills = () => (
       <List.Item>
         Diffmerge<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
       </List.Item>
-      <List.Item>
-        Agile/Scrum<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
-      </List.Item>
-      <List.Item>
-        Living Styleguide<Rating
-          defaultRating={5}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
-      </List.Item>
-
-      {/* 4 stars */}
-      <List.Item>
-        User Experience<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
-      </List.Item>
-
-      {/* 3 stars */}
       <List.Item>
         Agile/Scrum<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
       </List.Item>
