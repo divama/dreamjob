@@ -1,12 +1,28 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import registerServiceWorker from './registerServiceWorker';
+import { BrowserRouter, Link, Route } from 'react-router-dom';
 
 // Import css
 import './semantic.min.css';
 
-// Import Components
-import Resume from './pages/Resume';
+const App = () => (
+  <div>
+    App. <Link to="/EmploymentPage">EmploymentPage</Link>
+  </div>
+);
 
-ReactDOM.render(<Resume />, document.getElementById('root'));
-registerServiceWorker();
+const EmploymentPage = () => (
+  <div>
+    EmploymentPage. <Link to="/">App</Link>
+  </div>
+);
+
+ReactDOM.render(
+  <BrowserRouter>
+    <div>
+      <Route path="/" component={App} />
+      <Route path="/EmploymentPage" component={EmploymentPage} />
+    </div>
+  </BrowserRouter>,
+  document.getElementById('root')
+);
