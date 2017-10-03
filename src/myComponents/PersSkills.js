@@ -3,80 +3,41 @@ import { Rating, Header, List } from 'semantic-ui-react';
 
 const PersSkills = () => (
   <div>
+
     <Header as="h3" dividing>
-      <a name="">Personal Skills</a>
+      <a name="PersSkills">Personal Skills</a>
     </Header>
 
     <List>
       {/* 5 stars */}
       <List.Item>
-        Organizing<Rating
-          defaultRating={5}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Organizing<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
       </List.Item>
 
       {/* 4 stars */}
       <List.Item>
-        Creativity<Rating
-          defaultRating={4}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Creativity<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
-        Team player<Rating
-          defaultRating={4}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Team player<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
 
       <List.Item>
-        EHBO<Rating
-          defaultRating={4}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        EHBO<Rating defaultRating={4} maxRating={5} disabled className="right floated" />
       </List.Item>
 
       {/* 3 stars */}
       <List.Item>
-        Presenting<Rating
-          defaultRating={3}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Presenting<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
-        Communication<Rating
-          defaultRating={3}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Communication<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
-        Barista<Rating
-          defaultRating={3}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Barista<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
-        Table soccer<Rating
-          defaultRating={3}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Table soccer<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
     </List>
 
@@ -85,22 +46,13 @@ const PersSkills = () => (
         <Header as="h4">Languages</Header>
       </List.Item>
       <List.Item>
-        Dutch<Rating
-          defaultRating={5}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        Dutch<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
-        English<Rating
-          defaultRating={5}
-          maxRating={5}
-          disabled
-          className="right floated"
-        />
+        English<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
       </List.Item>
     </List>
+
   </div>
 );
 
