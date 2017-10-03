@@ -13,6 +13,7 @@
     "semantic-ui-react": "^0.71.4"
   },
   "devDependencies": {
+    "babel-polyfill": "^6.26.0", //needed?
     "concurrently": "^3.5.0",
     "gh-pages": "^1.0.0",
     "npm-clean": "^1.0.3",
