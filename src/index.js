@@ -1,11 +1,28 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './components/App';
+import ReactDOM from 'react-dom';
+import { BrowserRouter, Link, Route } from 'react-router-dom';
 
-render(
+// Import css
+import './semantic.min.css';
+
+const App = () => (
+  <div>
+    App. <Link to="/EmploymentPage">EmploymentPage</Link>
+  </div>
+);
+
+const EmploymentPage = () => (
+  <div>
+    EmploymentPage. <Link to="/">App</Link>
+  </div>
+);
+
+ReactDOM.render(
   <BrowserRouter>
-    <App />
+    <div>
+      <Route path="/" component={App} />
+      <Route path="/EmploymentPage" component={EmploymentPage} />
+    </div>
   </BrowserRouter>,
   document.getElementById('root')
 );
