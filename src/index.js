@@ -1,11 +1,12 @@
 import React from 'react';
-import { render } from 'react-dom';
-import { BrowserRouter } from 'react-router-dom';
-import App from './components/App';
+import ReactDOM from 'react-dom';
+import registerServiceWorker from './registerServiceWorker';
 
-render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root')
-);
+// Import css
+import './semantic.min.css';
+
+// Import Components
+import Resume from './pages/Resume';
+
+ReactDOM.render(<Resume />, document.getElementById('root'));
+registerServiceWorker();
