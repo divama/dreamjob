@@ -5,20 +5,17 @@
   "author": "Diantha van Marion",
   "homepage": "http://divama.github.io/dreamjob",
   "dependencies": {
-    "react": "^15.6.1",
-    "react-dom": "^15.6.1",
-    "react-markdown": "^2.5.0",
-    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.11",
-    "semantic-ui-react": "^0.71.4"
+    "react-dom": "^15.6.1",
+    "react": "^15.6.1",
+    "semantic-ui-react": "^0.71.4",
+    "react-markdown": "^2.5.0"
   },
   "devDependencies": {
-    "babel-polyfill": "^6.26.0", //needed?
     "concurrently": "^3.5.0",
     "gh-pages": "^1.0.0",
-    "npm-clean": "^1.0.3",
-    "prop-types": "^15.6.0",
-    "semantic-ui": "^2.2.13"
+    "semantic-ui": "^2.2.13",
+    "npm-clean": "^1.0.3"
   },
   "scripts": {
     "watch-and-copy-semantic-to-dist": "gulp --gulpfile semantic/gulpfile.js",
@@ -26,8 +23,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "npm install && react-scripts start",
-    "watch-css":
-      "concurrently \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
+    "watch-css": "concurrently \"npm run watch-and-copy-semantic-to-dist\" \"npm run watch-and-copy-dist-to-src\"",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
