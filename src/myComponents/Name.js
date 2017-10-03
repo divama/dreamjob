@@ -9,7 +9,7 @@ const Name = () => (
     <Header as="h2">
       <Image
         shape="circular"
-        src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAzoAAAAJGFmMDNjYjZmLWQ0YTEtNDVkYi04ZTg5LWU3MTJhNTEyYTAxNQ.jpg"
+        src="https://media-exp1.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAAprAAAAJGFmNmY5ZDIzLTY3NzQtNGRjMi05ZjAxLTMwNzVmMmFhMTIwYg.jpg"
       />
       <Header.Content>
         <a name="Introduction">Diantha van Marion</a>
