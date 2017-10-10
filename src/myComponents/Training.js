@@ -7,6 +7,8 @@ const Training = () => (
       <a name="Training">Training</a>
     </Header>
 
+    <List divided relaxed>
+      
     <List.Item>
       <List.Icon name="book" />
       <List.Content>
@@ -41,7 +43,7 @@ const Training = () => (
       </List.Content>
     </List.Item>
 
-    <List divided relaxed>
+   
       <List.Item>
         <List.Icon name="book" />
         <List.Content>

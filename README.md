@@ -14,7 +14,7 @@ Divama / dreamjob (Resumer)
     ```
     npm install -g gulp
     ```
-3. Run these commands to install the project-specific dependencies and afterwards automatically start your development server.:
+3. Run this command to install the project-specific dependencies and afterwards automatically start your development server.:
     ```
     npm start
     ```
