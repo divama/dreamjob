@@ -9,7 +9,6 @@ const Employment = () => (
     </Header>
     <Accordion>
       <Accordion.Title>
-
         <Icon name="folder" /> 2017 - now <br /> Software Engineer (Front-end
         Developer) @ Exact : Exact Design System Team
       </Accordion.Title>
@@ -31,40 +30,43 @@ const Employment = () => (
         video's about how to use and contribute to the living style guide using
         Github. At the moment I'm doing some trainings about React Redux, Jest
         and Mocha.
-
-
       </Accordion.Content>
       <Accordion.Title>
-        <Icon name="folder" /> 2013 - 2017 <br />Software Engineer (Front-end Developer) @ Exact :
-        Horizontal User Experience Team
+        <Icon name="folder" /> 2013 - 2017 <br />Software Engineer (Front-end
+        Developer) @ Exact : Horizontal User Experience Team
         <Icon name="dropdown" />
       </Accordion.Title>
       <Accordion.Content>
-        In the Horizontal User Experience team of Exact I was responsible of maintaining the user
-        interface of Exact Online, using Html, Css, Javascript, jQuery and Asp.net. With the focus
-        on user experience I set up an (atomic) design system and build a living style guide for it,
-        using Html5, Less, Gulp, and WordPress. I also supported other teams in Exact Cloud solution
-        by creating prototypes for them and helping them with other front-end related matters and
-        sharing knowledge (international). Next to that I've implemented Exact's visual langue for
-        in-product-messages and -tours, using Evergage, creating templates, stylesheets and
-        Javascript.
+        In the Horizontal User Experience team of Exact I was responsible of
+        maintaining the user interface of Exact Online, using HTML, CSS,
+        Javascript, jQuery and Asp.net. With the focus on user experience I set
+        up an (atomic) design system and build a living style guide for it,
+        using Html5, Less, Gulp, and WordPress. I also supported other
+        (international) teams in Exact Cloud Solution by creating prototypes for
+        them sharing knowledge, and helping them with other front-end related
+        matters. Next to that I've implemented Exact's visual language for
+        in-product-messages and -tours, using Evergage, creating templates,
+        stylesheets and Javascript.
       </Accordion.Content>
 
       <Accordion.Title>
-        <Icon name="folder" /> 2010 - 2013 <br />Front-end Developer @ Campagne : User Experience
-        Department <Icon name="dropdown" />
+        <Icon name="folder" /> 2010 - 2013 <br />Front-end Developer @ Campagne
+        : User Experience Department <Icon name="dropdown" />
       </Accordion.Title>
       <Accordion.Content>
-        Al dan niet van scratch af aan ontwikkelen van User Interfaces, (HTML, CSS) waarbij
-        gebruikmakend van PHP en Javascript/JQuery scripts. Ontwikkelen van animaties en flash
-        banners. Animeren en bewerken van video voor web en presentaties. Ontwerpen en ontwikkelen
-        van e-mail hantekeningen en nieuwsbrieven. Ontwikkelen van bladerfolders. Voor klanten zoals
-        Alpha International, BNV Mobility, Compacon, Gezond Transport, Glasgarage, Hillfresh, IMCD,
-        Indal, Lampidee Lucas Bols, Movenience, Roobol SpitsScoren, Tuinmeubelen, Roobol Wonen, TLN,
-        VAT Logistics, VTL. Skills: HTML standards, XHTML, CSS, JS, JQuery, E-mail marketing,
-        Advising, Bannering, Webvideo Tools: FireBug, PixelPerfect, Developers tools, IETab, GTD,
-        PNG-filters, FLV player, ClickTag, QR code Programma's: Dreamweaver, Illustrator, Photoshop,
-        Flash, After Effects, Sorenson Squeeze, Soundbooth, WordPress, Mailca, Mailcamp.
+        Al dan niet van scratch af aan ontwikkelen van User Interfaces, (HTML,
+        CSS) waarbij gebruikmakend van PHP en Javascript/JQuery scripts.
+        Ontwikkelen van animaties en flash banners. Animeren en bewerken van
+        video voor web en presentaties. Ontwerpen en ontwikkelen van e-mail
+        hantekeningen en nieuwsbrieven. Ontwikkelen van bladerfolders. Voor
+        klanten zoals Alpha International, BNV Mobility, Compacon, Gezond
+        Transport, Glasgarage, Hillfresh, IMCD, Indal, Lampidee Lucas Bols,
+        Movenience, Roobol SpitsScoren, Tuinmeubelen, Roobol Wonen, TLN, VAT
+        Logistics, VTL. Skills: HTML standards, XHTML, CSS, JS, JQuery, E-mail
+        marketing, Advising, Bannering, Webvideo Tools: FireBug, PixelPerfect,
+        Developers tools, IETab, GTD, PNG-filters, FLV player, ClickTag, QR code
+        Programma's: Dreamweaver, Illustrator, Photoshop, Flash, After Effects,
+        Sorenson Squeeze, Soundbooth, WordPress, Mailca, Mailcamp.
       </Accordion.Content>
 
       <Accordion.Title>
@@ -73,7 +75,6 @@ const Employment = () => (
         Communicatie en Publiciteit <Icon name="dropdown" />
       </Accordion.Title>
       <Accordion.Content>
-
         Grafisch ontwerp en ontwikkeling van de e-nieuwsbrief, afgestemd op
         verschillende e-mail programma’s en browsers. Redactiewerk zoals
         verzamelen, plaatsen en stylen van de content en afbeeldingen. Testen en
@@ -157,7 +158,6 @@ const Employment = () => (
       </Accordion.Title>
       <Accordion.Content>
         Ontwerpen, ontwikkelen en animeren van websites uit lopende projecten.
-
       </Accordion.Content>
     </Accordion>
   </div>
