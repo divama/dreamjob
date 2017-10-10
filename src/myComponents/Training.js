@@ -3,7 +3,6 @@ import { List, Header } from 'semantic-ui-react';
 
 const Training = () => (
   <div>
-
     <Header as="h3" dividing>
       <a name="Training">Training</a>
     </Header>
@@ -12,7 +11,25 @@ const Training = () => (
       <List.Icon name="book" />
       <List.Content>
         <List.Header>2017</List.Header>
-        <List.Description>ReactJS Redux course @ Pluralsight</List.Description>
+        <List.Description>Mastering React Testing with Jest @ Pluralsight</List.Description>
+      </List.Content>
+    </List.Item>
+
+    <List.Item>
+      <List.Icon name="book" />
+      <List.Content>
+        <List.Header>2017</List.Header>
+        <List.Description>Testing JavaScript for Node.js with Mocha @ Pluralsight</List.Description>
+      </List.Content>
+    </List.Item>
+
+    <List.Item>
+      <List.Icon name="book" />
+      <List.Content>
+        <List.Header>2017</List.Header>
+        <List.Description>
+          Building Applications with React and Redux in ES6 @ Pluralsight
+        </List.Description>
       </List.Content>
     </List.Item>
 
@@ -37,7 +54,7 @@ const Training = () => (
         <List.Icon name="book" />
         <List.Content>
           <List.Header>2016</List.Header>
-          <List.Description>React.js course @ Pluralsight</List.Description>
+          <List.Description>React.js: Getting Started @ Pluralsight</List.Description>
         </List.Content>
       </List.Item>
 
@@ -196,7 +213,6 @@ const Training = () => (
         </List.Content>
       </List.Item>
     </List>
-
   </div>
 );
 
