@@ -12,4 +12,12 @@
         position: absolute;
         right: 0;
     }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .dj-hamburger,
+    .ui.visible.left.overlay.sidebar { 
+        display: none;
+    }
 }

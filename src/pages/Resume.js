@@ -20,8 +20,12 @@ class Resume extends Component {
     const { visible } = this.state;
     return (
       <div className="dj">
-        <div className="dj-hamburger">
-          <Button onClick={this.toggleVisibility} icon="content" className="dj-hamburger" />
+        <div className="dj-hamburger mobile tablet">
+          <Button
+            onClick={this.toggleVisibility}
+            icon="content"
+            className="dj-hamburger"
+          />
         </div>
 
         <Sidebar.Pushable>
