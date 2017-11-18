@@ -90,9 +90,11 @@ const ProfSkills = () => (
       <List.Item>
         Redux<Rating defaultRating={2} maxRating={5} disabled className="right floated" />
       </List.Item>
+
+      {/* 1 star */}
       <List.Item>
         Unit testing/Jest/Mocha<Rating
-          defaultRating={2}
+          defaultRating={1}
           maxRating={5}
           disabled
           className="right floated"
