@@ -8,42 +8,42 @@ const Training = () => (
     </Header>
 
     <List divided relaxed>
-      
-    <List.Item>
-      <List.Icon name="book" />
-      <List.Content>
-        <List.Header>2017</List.Header>
-        <List.Description>Mastering React Testing with Jest @ Pluralsight</List.Description>
-      </List.Content>
-    </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          <List.Header>2017</List.Header>
+          <List.Description>Mastering React Testing with Jest @ Pluralsight</List.Description>
+        </List.Content>
+      </List.Item>
 
-    <List.Item>
-      <List.Icon name="book" />
-      <List.Content>
-        <List.Header>2017</List.Header>
-        <List.Description>Testing JavaScript for Node.js with Mocha @ Pluralsight</List.Description>
-      </List.Content>
-    </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          <List.Header>2017</List.Header>
+          <List.Description>
+            Testing JavaScript for Node.js with Mocha @ Pluralsight
+          </List.Description>
+        </List.Content>
+      </List.Item>
 
-    <List.Item>
-      <List.Icon name="book" />
-      <List.Content>
-        <List.Header>2017</List.Header>
-        <List.Description>
-          Building Applications with React and Redux in ES6 @ Pluralsight
-        </List.Description>
-      </List.Content>
-    </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          <List.Header>2017</List.Header>
+          <List.Description>
+            Building Applications with React and Redux in ES6 @ Pluralsight
+          </List.Description>
+        </List.Content>
+      </List.Item>
 
-    <List.Item>
-      <List.Icon name="book" />
-      <List.Content>
-        <List.Header>2017</List.Header>
-        <List.Description>Security Awareness for Technology @ Exact</List.Description>
-      </List.Content>
-    </List.Item>
+      <List.Item>
+        <List.Icon name="book" />
+        <List.Content>
+          <List.Header>2017</List.Header>
+          <List.Description>Security Awareness for Technology @ Exact</List.Description>
+        </List.Content>
+      </List.Item>
 
-   
       <List.Item>
         <List.Icon name="book" />
         <List.Content>
@@ -63,7 +63,7 @@ const Training = () => (
       <List.Item>
         <List.Icon name="book" />
         <List.Content>
-          <List.Header>2013, 2014, 2015, 2016</List.Header>
+          <List.Header>2013, 2014, 2015, 2016, 2017</List.Header>
           <List.Description>
             Certification: Security Awareness for Development Professionals @ Exact
           </List.Description>
