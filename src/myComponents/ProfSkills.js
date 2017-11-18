@@ -4,7 +4,7 @@ import { Rating, Header, List } from 'semantic-ui-react';
 const ProfSkills = () => (
   <div>
     <Header as="h3" dividing>
-      <a name="ProfSkills">Professional Skills</a>
+      <a name="ProfSkills">Professional Experience</a>
     </Header>
     <List>
       {/* 5 stars */}
@@ -35,6 +35,17 @@ const ProfSkills = () => (
           className="right floated"
         />
       </List.Item>
+      <List.Item>
+        Atomic Design/development<Rating
+          defaultRating={5}
+          maxRating={5}
+          disabled
+          className="right floated"
+        />
+      </List.Item>
+      <List.Item>
+        Scrum/Agile<Rating defaultRating={5} maxRating={5} disabled className="right floated" />
+      </List.Item>
 
       {/* 4 stars */}
       <List.Item>
@@ -61,9 +72,6 @@ const ProfSkills = () => (
         ReactJS<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
-        AngularJS<Rating defaultRating={3} maxRating={5} disabled className="right floated" />
-      </List.Item>
-      <List.Item>
         NodeJS/NPM/Webpack<Rating
           defaultRating={3}
           maxRating={5}
@@ -77,6 +85,9 @@ const ProfSkills = () => (
 
       {/* 2 star */}
       <List.Item>
+        AngularJS<Rating defaultRating={2} maxRating={5} disabled className="right floated" />
+      </List.Item>
+      <List.Item>
         Redux<Rating defaultRating={2} maxRating={5} disabled className="right floated" />
       </List.Item>
       <List.Item>
@@ -89,7 +100,7 @@ const ProfSkills = () => (
       </List.Item>
     </List>
 
-    <Header as="h4">Tools</Header>
+    <Header as="h4">Tooling</Header>
 
     <List>
       {/* 5 stars */}
