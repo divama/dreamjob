@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Progress } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 
 class PersType extends Component {
   render() {
