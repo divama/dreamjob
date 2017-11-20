@@ -57,7 +57,7 @@ const Contact = () => (
           </List.Description>
         </List.Content>
       </List.Item>
-      <List.Item>
+      {/* <List.Item>
         <List.Icon name="id card outline" size="large" verticalAlign="top" />
         <List.Content>
           <List.Header>Request Curriculum Vitae in PDF</List.Header>
@@ -71,7 +71,7 @@ const Contact = () => (
             </Form>
           </List.Description>
         </List.Content>
-      </List.Item>
+      </List.Item> */}
     </List>
   </div>
 );
