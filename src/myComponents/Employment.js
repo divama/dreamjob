@@ -30,9 +30,8 @@ const Employment = () => (
       <Accordion.Title>
         <Icon name="folder" /> 2013 - 2017 <br />Software Engineer (Front-end Developer) @ Exact :
         Horizontal User Experience Team
-        <Icon name="dropdown" />
       </Accordion.Title>
-      <Accordion.Content>
+      <Accordion.Content active={true}>
         In the Horizontal User Experience team of Exact I was responsible of maintaining the user
         interface of Exact Online, using HTML, CSS, Javascript, JQuery and Asp.net. With the focus
         on user experience I set up an (atomic) design system and build a Living Style Guide
@@ -45,9 +44,9 @@ const Employment = () => (
 
       <Accordion.Title>
         <Icon name="folder" /> 2010 - 2013 <br />Front-end Developer @ Campagne : User Experience
-        Department <Icon name="dropdown" />
+        Department
       </Accordion.Title>
-      <Accordion.Content>
+      <Accordion.Content active={true}>
         Al dan niet van scratch af aan ontwikkelen van User Interfaces, (HTML, CSS) waarbij
         gebruikmakend van PHP en Javascript/JQuery scripts. Ontwikkelen van animaties en flash
         banners. Animeren en bewerken van video voor web en presentaties. Ontwerpen en ontwikkelen

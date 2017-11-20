@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Header } from 'semantic-ui-react';
+import { List, Header, Form } from 'semantic-ui-react';
 
 const Contact = () => (
   <div>
@@ -57,6 +57,21 @@ const Contact = () => (
           </List.Description>
         </List.Content>
       </List.Item>
+      {/* <List.Item>
+        <List.Icon name="id card outline" size="large" verticalAlign="top" />
+        <List.Content>
+          <List.Header>Request Curriculum Vitae in PDF</List.Header>
+          <List.Description>
+            <Form>
+              <Form.Group widths="equal">
+                <Form.Input label="Name" placeholder="Name" />
+                <Form.Input label="Email Adress" placeholder="Email Adress" />
+                <Form.Button label="Submit">Submit</Form.Button>
+              </Form.Group>
+            </Form>
+          </List.Description>
+        </List.Content>
+      </List.Item> */}
     </List>
   </div>
 );

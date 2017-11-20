@@ -90,6 +90,9 @@ const ProfSkills = () => (
       <List.Item>
         Redux<Rating defaultRating={2} maxRating={5} disabled className="right floated" />
       </List.Item>
+      <List.Item>
+        VanillaJS<Rating defaultRating={2} maxRating={5} disabled className="right floated" />
+      </List.Item>
 
       {/* 1 star */}
       <List.Item>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header, Progress } from 'semantic-ui-react';
+import { Header } from 'semantic-ui-react';
 
 class PersType extends Component {
   render() {
@@ -7,11 +7,7 @@ class PersType extends Component {
       <div>
         <Header as="h3" dividing>
           <a name="PersType">Personality type </a>
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://www.16personalities.com/"
-          >
+          <a rel="noopener noreferrer" target="_blank" href="https://www.16personalities.com/">
             (MBTI)
           </a>
         </Header>
@@ -38,6 +34,7 @@ class PersType extends Component {
         >
           Constant improvement
         </a>
+        {/*  
         <Progress percent={84} progress>
           <a
             rel="noopener noreferrer"
@@ -83,6 +80,7 @@ class PersType extends Component {
             Turbulent
           </a>
         </Progress>
+        */}
       </div>
     );
   }
