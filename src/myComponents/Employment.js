@@ -8,6 +8,15 @@ const Employment = () => (
       <a name="Employment">Employment</a>
     </Header>
     <Accordion>
+    <Accordion.Title>
+        <Icon name="folder" /> 2018 - now <br /> Team Lead Front-end Development / Software Engineer / UX Gilde master @ Funatic
+      </Accordion.Title>
+      <Accordion.Content active={true}>
+        Patiënten en artsen helpen om medische dossiers altijd en overal in te kunnen zien, te updaten en te delen, om de zorg zo wat begrijpelijker, transparanter en dichterbij te maken en er meer tijd overblijft voor echte zorg, namelijk die voor jou en mij, onze kinderen en onze ouders. 
+        Met trots leid ik het Funatic front-end team om gezamenlijk spetterende, responsive en intuïtieve UI's te bouwen op patiënten-portalen, websites en mobiele apps. Gewoon hands-on zorgen voor die solide codebase, met techieken zoals ES6, knockout.js, JQuery, Vue.js, Sass, Grunt, Nodejs. Maar ook met leidinggeven, motiveren, plannen, controleren en, misschien nog wel het belangrijkste, persoonlijke aandacht. Waarbij elke sprint een verbetering voor de klant is, de gebruiker en voor ons. Want (jezelf) blijven ontwikkelen vind ik belangrijk, trouwens niet alleen op zakelijk gebied. Niet geheel toevallig dus dat ik ook de kennisavonden organiseer en deelneem aan het Quality Improvement programma tbv de tevredenheid van de klant.
+        Mooi teamwork heeft gelijd tot mooie opleveringen, zoals bijvoorbeeld voor Ziekenhuis Gelderse Valei, het Ommelander Ziekenhuis, Treant Zorggroep en het Haga Ziekenhuis.
+      </Accordion.Content>
+
       <Accordion.Title>
         <Icon name="folder" /> 2017 - now <br /> Software Engineer (Front-end Developer) @ Exact :
         Exact Design System Team
@@ -46,7 +55,7 @@ const Employment = () => (
         <Icon name="folder" /> 2010 - 2013 <br />Front-end Developer @ Campagne : User Experience
         Department
       </Accordion.Title>
-      <Accordion.Content active={true}>
+      <Accordion.Content>
         Al dan niet van scratch af aan ontwikkelen van User Interfaces, (HTML, CSS) waarbij
         gebruikmakend van PHP en Javascript/JQuery scripts. Ontwikkelen van animaties en flash
         banners. Animeren en bewerken van video voor web en presentaties. Ontwerpen en ontwikkelen

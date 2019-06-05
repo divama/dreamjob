@@ -1,5 +1,6 @@
 import React from 'react';
-import { List, Header, Form } from 'semantic-ui-react';
+// import { List, Header, Form } from 'semantic-ui-react';
+import { List, Header } from 'semantic-ui-react';
 
 const Contact = () => (
   <div>
@@ -46,7 +47,7 @@ const Contact = () => (
         <List.Content>
           <List.Header>Maximum traveling distance</List.Header>
           <List.Description>
-            25km from{' '}
+            40km from{' '}
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -73,6 +74,8 @@ const Contact = () => (
         </List.Content>
       </List.Item> */}
     </List>
+
+    
   </div>
 );
 

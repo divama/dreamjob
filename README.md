@@ -8,11 +8,15 @@ Divama / dreamjob (Resumer)
 [https://github.com/divama/dreamjob/](https://github.com/divama/dreamjob/)
 
 ## How to: Setup development environment
-1. Make sure the following is installed on your machine:
+0. Make sure the following is installed on your machine:
     - [Node.js](http://nodejs.org/)
+1. Run this command to install npm:
+    ```
+    npm install
+    ```
 2. Run this command to install the global dependencies:
     ```
-    npm install -g gulp
+    sudo npm install -g gulp
     ```
 3. Run this command to install the project-specific dependencies and afterwards automatically start your development server.:
     ```
