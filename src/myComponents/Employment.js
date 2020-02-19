@@ -9,12 +9,12 @@ const Employment = () => (
     </Header>
     <Accordion>
     <Accordion.Title>
-        <Icon name="folder" /> 2018 - now <br /> Team Lead Front-end Development / Software Engineer / UX Gilde master @ Funatic
+        <Icon name="folder" /> 2018 - now <br /> Team Lead Front-end Development / Software Engineer / UX Gilde master / WCAG Specialist @ Funatic
       </Accordion.Title>
       <Accordion.Content active={true}>
         Patiënten en artsen helpen om medische dossiers altijd en overal in te kunnen zien, te updaten en te delen, om de zorg zo wat begrijpelijker, transparanter en dichterbij te maken en er meer tijd overblijft voor echte zorg, namelijk die voor jou en mij, onze kinderen en onze ouders. 
-        Met trots leid ik het Funatic front-end team om gezamenlijk spetterende, responsive en intuïtieve UI's te bouwen op patiënten-portalen, websites en mobiele apps. Gewoon hands-on zorgen voor die solide codebase, met techieken zoals ES6, knockout.js, JQuery, Vue.js, Sass, Grunt, Nodejs. Maar ook met leidinggeven, motiveren, plannen, controleren en, misschien nog wel het belangrijkste, persoonlijke aandacht. Waarbij elke sprint een verbetering voor de klant is, de gebruiker en voor ons. Want (jezelf) blijven ontwikkelen vind ik belangrijk, trouwens niet alleen op zakelijk gebied. Niet geheel toevallig dus dat ik ook de kennisavonden organiseer en deelneem aan het Quality Improvement programma tbv de tevredenheid van de klant.
-        Mooi teamwork heeft gelijd tot mooie opleveringen, zoals bijvoorbeeld voor Ziekenhuis Gelderse Valei, het Ommelander Ziekenhuis, Treant Zorggroep en het Haga Ziekenhuis.
+        Met trots leid ik het Funatic front-end team om gezamenlijk spetterende, responsive en intuïtieve UI's te bouwen op patiënten-portalen, websites en mobiele apps. Gewoon hands-on zorgen voor die solide codebase, met techieken zoals ES6, knockout.js, JQuery, Vue.js, Sass, Grunt, Nodejs. Maar ook met leidinggeven, motiveren, plannen, controleren en, misschien nog wel het belangrijkste, persoonlijke aandacht. Waarbij elke sprint een verbetering voor de klant is, de gebruiker en voor ons. Want (jezelf) blijven ontwikkelen vind ik belangrijk, trouwens niet alleen op zakelijk gebied. Niet geheel toevallig dus dat ik ook de kennisavonden organiseer en deelneem aan het Quality Improvement programma tbv de tevredenheid van de klant. Zonder goede User Experience, geen bruikbaar product.
+        Mooi teamwork heeft reeds geleid tot mooie opleveringen, zoals bijvoorbeeld voor het Meander Medisch Centrum, Ziekenhuis Gelderse Valei, het Ommelander Ziekenhuis, Treant Zorggroep, het Haga Ziekenhuis en het Gelre Ziekenhuis. En daar ben ik best een beetje #trots op.
       </Accordion.Content>
 
       <Accordion.Title>
