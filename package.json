@@ -14,7 +14,7 @@
   "devDependencies": {
     "concurrently": "^3.5.0",
     "gh-pages": "^1.0.0",
-    "semantic-ui": "^2.2.13",
+    "semantic-ui": "^2.5.0",
     "npm-clean": "^1.0.3"
   },
   "scripts": {
